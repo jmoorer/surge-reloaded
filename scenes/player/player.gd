@@ -1,7 +1,9 @@
 class_name Player
 extends CharacterBody3D
 ## Third-person player: WASD moves relative to the camera, mouse orbits the camera,
-## left click fires the pistol, R reloads.
+## left click fires the pistol, R reloads. Dies when Health hits zero.
+
+signal died
 
 @export var walk_speed: float = 4.0
 @export var sprint_speed: float = 7.0
@@ -18,12 +20,18 @@ extends CharacterBody3D
 @export var recoil_yaw_jitter_deg: float = 0.4
 @export var recoil_recovery: float = 14.0
 
+@export_group("Debug")
+## Debug builds only: K deals this much damage to yourself (until enemies shoot back).
+@export var debug_self_damage: float = 20.0
+
 @onready var _camera_yaw: Node3D = $CameraYaw
 @onready var _camera_pitch: Node3D = $CameraYaw/CameraPitch
 @onready var _spring_arm: SpringArm3D = $CameraYaw/CameraPitch/SpringArm3D
 @onready var _camera: Camera3D = $CameraYaw/CameraPitch/SpringArm3D/Camera3D
 @onready var _model: Node3D = $Model
 @onready var _pistol: Pistol = %Pistol
+@onready var health: Health = $Health
+@onready var _hitboxes: Array[Hitbox] = [$Hitboxes/Body, $Hitboxes/Head]
 @onready var _anim: AnimationPlayer = _model.find_child("AnimationPlayer", true, false) as AnimationPlayer
 
 const ANIM_DIR := "res://assets/third_party/mixamo/animations/"
@@ -42,6 +50,7 @@ var _gravity: float = ProjectSettings.get_setting("physics/3d/default_gravity")
 var _combat_left := 0.0
 # Recoil lives on the camera as an offset that decays, never written into the look angle.
 var _recoil := Vector2.ZERO
+var is_dead := false
 
 
 func _ready() -> void:
@@ -49,13 +58,27 @@ func _ready() -> void:
 	_camera_pitch.rotation.x = deg_to_rad(-15.0)
 	_spring_arm.add_excluded_object(get_rid())
 	_pistol.camera = _camera
-	_pistol.exclude = [get_rid()]
+	# Own shots must ignore our capsule and our own hitboxes.
+	var own: Array[RID] = [get_rid()]
+	for hitbox in _hitboxes:
+		own.append(hitbox.get_rid())
+		_spring_arm.add_excluded_object(hitbox.get_rid())
+		# Our mask includes the hitbox layer (to bump into dummies); not our own, though.
+		add_collision_exception_with(hitbox)
+	_pistol.exclude = own
+	health.died.connect(_die)
 	_pistol.fired.connect(_on_pistol_fired)
 	_load_clips()
 	_play(&"idle")
 
 
 func _unhandled_input(event: InputEvent) -> void:
+	if is_dead:
+		return
+	if OS.is_debug_build() and event is InputEventKey and event.pressed and not event.echo \
+			and (event as InputEventKey).keycode == KEY_K:
+		health.damage(debug_self_damage)
+		return
 	var captured := Input.mouse_mode == Input.MOUSE_MODE_CAPTURED
 	if event is InputEventMouseMotion and captured:
 		var motion := event as InputEventMouseMotion
@@ -87,6 +110,11 @@ func _shoot() -> void:
 func _physics_process(delta: float) -> void:
 	if not is_on_floor():
 		velocity.y -= _gravity * delta
+	if is_dead:
+		velocity.x = 0.0
+		velocity.z = 0.0
+		move_and_slide()
+		return
 
 	_combat_left = maxf(_combat_left - delta, 0.0)
 	var in_combat := _combat_left > 0.0
@@ -119,6 +147,22 @@ func _process(delta: float) -> void:
 	_recoil = _recoil.lerp(Vector2.ZERO, 1.0 - exp(-recoil_recovery * delta))
 	# On the arm, not the Camera3D: SpringArm3D resets its child's transform every tick.
 	_spring_arm.rotation = Vector3(_recoil.x, _recoil.y, 0.0)
+
+
+func _die() -> void:
+	if is_dead:
+		return
+	is_dead = true
+	_combat_left = 0.0
+	for hitbox in _hitboxes:
+		hitbox.set_deferred("collision_layer", 0)
+	if _anim:
+		_anim.pause()
+	# No death clip yet: topple backwards from the feet.
+	var tween := create_tween()
+	tween.tween_property(_model, "rotation:x", deg_to_rad(-85.0), 0.6) \
+		.set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	died.emit()
 
 
 func _on_pistol_fired(_ammo: int) -> void:
