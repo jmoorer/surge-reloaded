@@ -63,5 +63,249 @@
         "hash": "sha256:861f7abbd1c7886ae82c173d295192559edee77886afa87a34aa0d96cbea780f"
       }
     ]
+  },
+  {
+    "id": "mixamo/x-bot/x-bot",
+    "source_path": "Mixamo/x-bot/X Bot.fbx",
+    "hash": "sha256:86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+    "license": "Adobe Mixamo terms",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "Mixamo/x-bot/LICENSE-NOTICE.txt",
+          "text": "Adobe Mixamo asset. Royalty-free use in personal, commercial and nonprofit projects is described in Adobe’s FAQ. This is not a CC0 asset. Keep use subject to Adobe/Mixamo terms.\n\nOfficial FAQ: https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html\nLicensing guidance: https://community.adobe.com/questions-696/mixamo-faq-licensing-royalties-ownership-eula-and-tos-589400\n\nDo not redistribute the raw models as a standalone asset collection.\n",
+          "observed_at": "2026-11-15T15:35:39.141Z",
+          "sha256": "9b0a6a83492e2c778ee5fbc530a929198ad1ffc22a704097e0fecd839825b854"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "Mixamo",
+      "name": "x-bot",
+      "title": "X Bot",
+      "source_url": "https://www.mixamo.com/",
+      "license": "Adobe Mixamo terms",
+      "license_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "status": "downloaded",
+      "local_path": "/Users/marlon/game_assets/Mixamo/x-bot",
+      "model_files": 1,
+      "formats": [
+        "fbx"
+      ],
+      "files": 3,
+      "extracted_bytes": 1753238,
+      "sha256": "86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+      "original_filename": "X Bot (1).fbx",
+      "skeleton": {
+        "type": "Mixamo humanoid",
+        "bone_count": 65,
+        "root": "mixamorig:Hips"
+      },
+      "animation_note": "Contains a two-frame action. Compatible humanoid animations can be applied; other skeletons require retargeting.",
+      "provided_by": "user",
+      "organized_at": "2026-10-31T17:29:24.933113+00:00"
+    },
+    "copied_at": "2026-11-19T15:23:11.455Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "Mixamo/x-bot/X Bot.fbx",
+        "path": "mixamo/x-bot/X Bot.fbx",
+        "source_hash": "sha256:86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+        "hash": "sha256:86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be"
+      },
+      {
+        "source_path": "Mixamo/x-bot/LICENSE-NOTICE.txt",
+        "path": "mixamo/x-bot/LICENSE-NOTICE.txt",
+        "source_hash": "sha256:9b0a6a83492e2c778ee5fbc530a929198ad1ffc22a704097e0fecd839825b854",
+        "hash": "sha256:9b0a6a83492e2c778ee5fbc530a929198ad1ffc22a704097e0fecd839825b854"
+      },
+      {
+        "source_path": "Mixamo/x-bot/SOURCE.json",
+        "path": "mixamo/x-bot/SOURCE.json",
+        "source_hash": "sha256:e0ad5ae89b2da3e1303493c41cff8634ed3aa996394f1ece14614b1d1454100b",
+        "hash": "sha256:e0ad5ae89b2da3e1303493c41cff8634ed3aa996394f1ece14614b1d1454100b"
+      }
+    ]
+  },
+  {
+    "id": "vladek/lp-mini-pack-modern-weapons-with-bullets-part-1/lp-mini-pack-modern-weaponswith-bullets-part-1",
+    "source_path": "Vladek/LP mini pack modern weapons(with bullets) Part 1/lp_mini_pack_modern_weaponswith_bullets_part_1.glb",
+    "hash": "sha256:316fac9a493d5d8d57822f7f9dd7c553cd36f63cf78b5025e808efb31765e3f4",
+    "license": "SKETCHFAB Standard",
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "provenance": {
+      "creator": "Vladek",
+      "name": "LP mini pack modern weapons(with bullets) Part 1",
+      "source_url": "https://sketchfab.com/3d-models/lp-mini-pack-modern-weaponswith-bullets-part-1-797453290f6a42558dfe4a95098fb19d",
+      "license": "SKETCHFAB Standard",
+      "license_evidence": {
+        "status": "unknown",
+        "identifier": null,
+        "commercial_use": null,
+        "evidence": []
+      },
+      "license_override": {
+        "value": "SKETCHFAB Standard",
+        "provided_by": "user"
+      },
+      "source_metadata": null,
+      "status": "imported",
+      "files": 1,
+      "extracted_bytes": 760032,
+      "formats": [
+        "glb"
+      ],
+      "local_path": "/Users/marlon/game_assets/Vladek/LP mini pack modern weapons(with bullets) Part 1",
+      "provided_by": "user",
+      "importer_version": "1",
+      "imported_on": "2026-11-15T15:39:55.299Z"
+    },
+    "copied_at": "2026-11-19T15:23:11.473Z",
+    "format": "glb",
+    "files": [
+      {
+        "source_path": "Vladek/LP mini pack modern weapons(with bullets) Part 1/lp_mini_pack_modern_weaponswith_bullets_part_1.glb",
+        "path": "vladek/lp-mini-pack-modern-weapons-with-bullets-part-1/lp_mini_pack_modern_weaponswith_bullets_part_1.glb",
+        "source_hash": "sha256:316fac9a493d5d8d57822f7f9dd7c553cd36f63cf78b5025e808efb31765e3f4",
+        "hash": "sha256:316fac9a493d5d8d57822f7f9dd7c553cd36f63cf78b5025e808efb31765e3f4"
+      },
+      {
+        "source_path": "Vladek/LP mini pack modern weapons(with bullets) Part 1/SOURCE.json",
+        "path": "vladek/lp-mini-pack-modern-weapons-with-bullets-part-1/SOURCE.json",
+        "source_hash": "sha256:790f294e57f2b02f7f6e1d51bac720570c0d3a6628782eceeb50ae9cea44f95c",
+        "hash": "sha256:790f294e57f2b02f7f6e1d51bac720570c0d3a6628782eceeb50ae9cea44f95c"
+      }
+    ]
+  },
+  {
+    "id": "mixamo/x-bot/x-bot",
+    "source_path": "Mixamo/x-bot/X Bot.fbx",
+    "hash": "sha256:86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+    "license": "Adobe Mixamo terms",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "Mixamo/x-bot/LICENSE-NOTICE.txt",
+          "text": "Adobe Mixamo asset. Royalty-free use in personal, commercial and nonprofit projects is described in Adobe’s FAQ. This is not a CC0 asset. Keep use subject to Adobe/Mixamo terms.\n\nOfficial FAQ: https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html\nLicensing guidance: https://community.adobe.com/questions-696/mixamo-faq-licensing-royalties-ownership-eula-and-tos-589400\n\nDo not redistribute the raw models as a standalone asset collection.\n",
+          "observed_at": "2026-11-15T15:35:39.141Z",
+          "sha256": "9b0a6a83492e2c778ee5fbc530a929198ad1ffc22a704097e0fecd839825b854"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "Mixamo",
+      "name": "x-bot",
+      "title": "X Bot",
+      "source_url": "https://www.mixamo.com/",
+      "license": "Adobe Mixamo terms",
+      "license_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "status": "downloaded",
+      "local_path": "/Users/marlon/game_assets/Mixamo/x-bot",
+      "model_files": 1,
+      "formats": [
+        "fbx"
+      ],
+      "files": 3,
+      "extracted_bytes": 1753238,
+      "sha256": "86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+      "original_filename": "X Bot (1).fbx",
+      "skeleton": {
+        "type": "Mixamo humanoid",
+        "bone_count": 65,
+        "root": "mixamorig:Hips"
+      },
+      "animation_note": "Contains a two-frame action. Compatible humanoid animations can be applied; other skeletons require retargeting.",
+      "provided_by": "user",
+      "organized_at": "2026-10-31T17:29:24.933113+00:00"
+    },
+    "copied_at": "2026-11-19T15:54:57.954Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "Mixamo/x-bot/X Bot.fbx",
+        "path": "mixamo/x-bot/X Bot.fbx",
+        "source_hash": "sha256:86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+        "hash": "sha256:86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be"
+      },
+      {
+        "source_path": "Mixamo/x-bot/LICENSE-NOTICE.txt",
+        "path": "mixamo/x-bot/LICENSE-NOTICE.txt",
+        "source_hash": "sha256:9b0a6a83492e2c778ee5fbc530a929198ad1ffc22a704097e0fecd839825b854",
+        "hash": "sha256:9b0a6a83492e2c778ee5fbc530a929198ad1ffc22a704097e0fecd839825b854"
+      },
+      {
+        "source_path": "Mixamo/x-bot/SOURCE.json",
+        "path": "mixamo/x-bot/SOURCE.json",
+        "source_hash": "sha256:e0ad5ae89b2da3e1303493c41cff8634ed3aa996394f1ece14614b1d1454100b",
+        "hash": "sha256:e0ad5ae89b2da3e1303493c41cff8634ed3aa996394f1ece14614b1d1454100b"
+      }
+    ]
+  },
+  {
+    "id": "vladek/lp-mini-pack-modern-weapons-with-bullets-part-1/lp-mini-pack-modern-weaponswith-bullets-part-1",
+    "source_path": "Vladek/LP mini pack modern weapons(with bullets) Part 1/lp_mini_pack_modern_weaponswith_bullets_part_1.glb",
+    "hash": "sha256:316fac9a493d5d8d57822f7f9dd7c553cd36f63cf78b5025e808efb31765e3f4",
+    "license": "SKETCHFAB Standard",
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "provenance": {
+      "creator": "Vladek",
+      "name": "LP mini pack modern weapons(with bullets) Part 1",
+      "source_url": "https://sketchfab.com/3d-models/lp-mini-pack-modern-weaponswith-bullets-part-1-797453290f6a42558dfe4a95098fb19d",
+      "license": "SKETCHFAB Standard",
+      "license_evidence": {
+        "status": "unknown",
+        "identifier": null,
+        "commercial_use": null,
+        "evidence": []
+      },
+      "license_override": {
+        "value": "SKETCHFAB Standard",
+        "provided_by": "user"
+      },
+      "source_metadata": null,
+      "status": "imported",
+      "files": 1,
+      "extracted_bytes": 760032,
+      "formats": [
+        "glb"
+      ],
+      "local_path": "/Users/marlon/game_assets/Vladek/LP mini pack modern weapons(with bullets) Part 1",
+      "provided_by": "user",
+      "importer_version": "1",
+      "imported_on": "2026-11-15T15:39:55.299Z"
+    },
+    "copied_at": "2026-11-19T15:54:57.970Z",
+    "format": "glb",
+    "files": [
+      {
+        "source_path": "Vladek/LP mini pack modern weapons(with bullets) Part 1/lp_mini_pack_modern_weaponswith_bullets_part_1.glb",
+        "path": "vladek/lp-mini-pack-modern-weapons-with-bullets-part-1/lp_mini_pack_modern_weaponswith_bullets_part_1.glb",
+        "source_hash": "sha256:316fac9a493d5d8d57822f7f9dd7c553cd36f63cf78b5025e808efb31765e3f4",
+        "hash": "sha256:316fac9a493d5d8d57822f7f9dd7c553cd36f63cf78b5025e808efb31765e3f4"
+      },
+      {
+        "source_path": "Vladek/LP mini pack modern weapons(with bullets) Part 1/SOURCE.json",
+        "path": "vladek/lp-mini-pack-modern-weapons-with-bullets-part-1/SOURCE.json",
+        "source_hash": "sha256:790f294e57f2b02f7f6e1d51bac720570c0d3a6628782eceeb50ae9cea44f95c",
+        "hash": "sha256:790f294e57f2b02f7f6e1d51bac720570c0d3a6628782eceeb50ae9cea44f95c"
+      }
+    ]
   }
 ]
