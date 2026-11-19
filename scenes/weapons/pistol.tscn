@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/weapons/pistol.gd" id="1_script"]
+[ext_resource type="ArrayMesh" path="res://assets/models/weapons/pistol_mesh.res" id="2_gun"]
+[ext_resource type="ArrayMesh" path="res://assets/models/weapons/pistol_bullet_mesh.res" id="3_bullet"]
+
+[node name="Pistol" type="Node3D"]
+script = ExtResource("1_script")
+bullet_mesh = ExtResource("3_bullet")
+
+[node name="Gun" type="MeshInstance3D" parent="."]
+mesh = ExtResource("2_gun")
+
+[node name="Muzzle" type="Marker3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.035, -0.18)
+
+[node name="Flash" type="OmniLight3D" parent="Muzzle"]
+light_color = Color(1, 0.7, 0.35, 1)
+light_energy = 0.0
+omni_range = 4.0

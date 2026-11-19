@@ -1,0 +1,248 @@
+[
+  {
+    "id": "mixamo-library/animations/pistol-idle-e4528faaee276d7f1ce4-8d5977af883f-a74ddc14ae2e",
+    "source_path": "mixamo-library/animations/pistol-idle__e4528faaee276d7f1ce4_8d5977af883f_a74ddc14ae2e.fbx",
+    "hash": "sha256:e9a16d01b5a3f5b2e42de92637230ad6ab75e35386252883fb8c3d8c87a385b8",
+    "license": "Adobe/Mixamo terms",
+    "provider": {
+      "product_id": "c9cdb599-b96c-11e4-a802-0aaa78deedf9",
+      "character_id": "4f5d21e1-4ccc-41f1-b35b-fb2547bd8493",
+      "variant": "default",
+      "export_settings_hash": "a74ddc14ae2e133f2264eb8c4af80d851a00664a34de4ba9712a683384520d27",
+      "relative_path": "mixamo-library/animations/pistol-idle__e4528faaee276d7f1ce4_8d5977af883f_a74ddc14ae2e.fbx",
+      "hash": "e9a16d01b5a3f5b2e42de92637230ad6ab75e35386252883fb8c3d8c87a385b8",
+      "bytes": 366256,
+      "export_settings": {
+        "format": "fbx7",
+        "fps": 30,
+        "skin": false
+      },
+      "downloaded_at": "2026-11-19T15:57:34.498Z",
+      "product_url": "https://www.mixamo.com/#/?page=1&query=Pistol%20Idle",
+      "terms": "Adobe/Mixamo terms",
+      "terms_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "asset_id": "mixamo-library/animations/pistol-idle-e4528faaee276d7f1ce4-8d5977af883f-a74ddc14ae2e"
+    },
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "copied_at": "2026-11-19T15:59:53.486Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "mixamo-library/animations/pistol-idle__e4528faaee276d7f1ce4_8d5977af883f_a74ddc14ae2e.fbx",
+        "path": "pistol-idle__e4528faaee276d7f1ce4_8d5977af883f_a74ddc14ae2e.fbx",
+        "source_hash": "sha256:e9a16d01b5a3f5b2e42de92637230ad6ab75e35386252883fb8c3d8c87a385b8",
+        "hash": "sha256:e9a16d01b5a3f5b2e42de92637230ad6ab75e35386252883fb8c3d8c87a385b8"
+      }
+    ]
+  },
+  {
+    "id": "mixamo-library/animations/pistol-walk-83fc03c0de7becb71fe8-8d5977af883f-a74ddc14ae2e-inplace",
+    "source_path": "mixamo-library/animations/pistol-walk__83fc03c0de7becb71fe8_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+    "hash": "sha256:a3f699ca6a3057180cbbc4c34b0b4059f118e557688e362c739121dd9a48fd18",
+    "license": "Adobe/Mixamo terms",
+    "provider": {
+      "product_id": "c9cdb8f0-b96c-11e4-a802-0aaa78deedf9",
+      "character_id": "4f5d21e1-4ccc-41f1-b35b-fb2547bd8493",
+      "variant": "inplace",
+      "export_settings_hash": "a74ddc14ae2e133f2264eb8c4af80d851a00664a34de4ba9712a683384520d27",
+      "relative_path": "mixamo-library/animations/pistol-walk__83fc03c0de7becb71fe8_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+      "hash": "a3f699ca6a3057180cbbc4c34b0b4059f118e557688e362c739121dd9a48fd18",
+      "bytes": 325936,
+      "export_settings": {
+        "format": "fbx7",
+        "fps": 30,
+        "skin": false
+      },
+      "downloaded_at": "2026-11-19T15:58:52.543Z",
+      "product_url": "https://www.mixamo.com/#/?page=1&query=Pistol%20Walk",
+      "terms": "Adobe/Mixamo terms",
+      "terms_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "asset_id": "mixamo-library/animations/pistol-walk-83fc03c0de7becb71fe8-8d5977af883f-a74ddc14ae2e-inplace"
+    },
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "copied_at": "2026-11-19T15:59:53.492Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "mixamo-library/animations/pistol-walk__83fc03c0de7becb71fe8_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "path": "pistol-walk__83fc03c0de7becb71fe8_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "source_hash": "sha256:a3f699ca6a3057180cbbc4c34b0b4059f118e557688e362c739121dd9a48fd18",
+        "hash": "sha256:a3f699ca6a3057180cbbc4c34b0b4059f118e557688e362c739121dd9a48fd18"
+      }
+    ]
+  },
+  {
+    "id": "mixamo-library/animations/pistol-walk-backward-e6217454337d48ae5f67-8d5977af883f-a74ddc14ae2e-inplace",
+    "source_path": "mixamo-library/animations/pistol-walk-backward__e6217454337d48ae5f67_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+    "hash": "sha256:28984681603e2f2b96abffbfc9311554108874f461f3a35ba61820e9d880dbca",
+    "license": "Adobe/Mixamo terms",
+    "provider": {
+      "product_id": "c9cdba81-b96c-11e4-a802-0aaa78deedf9",
+      "character_id": "4f5d21e1-4ccc-41f1-b35b-fb2547bd8493",
+      "variant": "inplace",
+      "export_settings_hash": "a74ddc14ae2e133f2264eb8c4af80d851a00664a34de4ba9712a683384520d27",
+      "relative_path": "mixamo-library/animations/pistol-walk-backward__e6217454337d48ae5f67_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+      "hash": "28984681603e2f2b96abffbfc9311554108874f461f3a35ba61820e9d880dbca",
+      "bytes": 344832,
+      "export_settings": {
+        "format": "fbx7",
+        "fps": 30,
+        "skin": false
+      },
+      "downloaded_at": "2026-11-19T15:58:04.359Z",
+      "product_url": "https://www.mixamo.com/#/?page=1&query=Pistol%20Walk%20Backward",
+      "terms": "Adobe/Mixamo terms",
+      "terms_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "asset_id": "mixamo-library/animations/pistol-walk-backward-e6217454337d48ae5f67-8d5977af883f-a74ddc14ae2e-inplace"
+    },
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "copied_at": "2026-11-19T15:59:53.497Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "mixamo-library/animations/pistol-walk-backward__e6217454337d48ae5f67_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "path": "pistol-walk-backward__e6217454337d48ae5f67_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "source_hash": "sha256:28984681603e2f2b96abffbfc9311554108874f461f3a35ba61820e9d880dbca",
+        "hash": "sha256:28984681603e2f2b96abffbfc9311554108874f461f3a35ba61820e9d880dbca"
+      }
+    ]
+  },
+  {
+    "id": "mixamo-library/animations/pistol-strafe-c9c514be526b3ae5f592-8d5977af883f-a74ddc14ae2e-inplace",
+    "source_path": "mixamo-library/animations/pistol-strafe__c9c514be526b3ae5f592_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+    "hash": "sha256:832c4e719b855102ce72497fb9d5a9f8b67a8425aa9506a005671989499772a9",
+    "license": "Adobe/Mixamo terms",
+    "provider": {
+      "product_id": "c9cdbb48-b96c-11e4-a802-0aaa78deedf9",
+      "character_id": "4f5d21e1-4ccc-41f1-b35b-fb2547bd8493",
+      "variant": "inplace",
+      "export_settings_hash": "a74ddc14ae2e133f2264eb8c4af80d851a00664a34de4ba9712a683384520d27",
+      "relative_path": "mixamo-library/animations/pistol-strafe__c9c514be526b3ae5f592_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+      "hash": "832c4e719b855102ce72497fb9d5a9f8b67a8425aa9506a005671989499772a9",
+      "bytes": 307040,
+      "export_settings": {
+        "format": "fbx7",
+        "fps": 30,
+        "skin": false
+      },
+      "downloaded_at": "2026-11-19T15:58:30.267Z",
+      "product_url": "https://www.mixamo.com/#/?page=1&query=Pistol%20Strafe",
+      "terms": "Adobe/Mixamo terms",
+      "terms_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "asset_id": "mixamo-library/animations/pistol-strafe-c9c514be526b3ae5f592-8d5977af883f-a74ddc14ae2e-inplace"
+    },
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "copied_at": "2026-11-19T15:59:53.503Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "mixamo-library/animations/pistol-strafe__c9c514be526b3ae5f592_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "path": "pistol-strafe__c9c514be526b3ae5f592_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "source_hash": "sha256:832c4e719b855102ce72497fb9d5a9f8b67a8425aa9506a005671989499772a9",
+        "hash": "sha256:832c4e719b855102ce72497fb9d5a9f8b67a8425aa9506a005671989499772a9"
+      }
+    ]
+  },
+  {
+    "id": "mixamo-library/animations/pistol-strafe-09ce081abb7d419ad156-8d5977af883f-a74ddc14ae2e-inplace",
+    "source_path": "mixamo-library/animations/pistol-strafe__09ce081abb7d419ad156_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+    "hash": "sha256:8248c73481cf8c831d71e07adffd7eb9d7dde232876b7c5fda0fcb18dceab858",
+    "license": "Adobe/Mixamo terms",
+    "provider": {
+      "product_id": "c9cdbc0b-b96c-11e4-a802-0aaa78deedf9",
+      "character_id": "4f5d21e1-4ccc-41f1-b35b-fb2547bd8493",
+      "variant": "inplace",
+      "export_settings_hash": "a74ddc14ae2e133f2264eb8c4af80d851a00664a34de4ba9712a683384520d27",
+      "relative_path": "mixamo-library/animations/pistol-strafe__09ce081abb7d419ad156_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+      "hash": "8248c73481cf8c831d71e07adffd7eb9d7dde232876b7c5fda0fcb18dceab858",
+      "bytes": 309744,
+      "export_settings": {
+        "format": "fbx7",
+        "fps": 30,
+        "skin": false
+      },
+      "downloaded_at": "2026-11-19T15:59:14.011Z",
+      "product_url": "https://www.mixamo.com/#/?page=1&query=Pistol%20Strafe",
+      "terms": "Adobe/Mixamo terms",
+      "terms_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "asset_id": "mixamo-library/animations/pistol-strafe-09ce081abb7d419ad156-8d5977af883f-a74ddc14ae2e-inplace"
+    },
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "copied_at": "2026-11-19T15:59:53.507Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "mixamo-library/animations/pistol-strafe__09ce081abb7d419ad156_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "path": "pistol-strafe__09ce081abb7d419ad156_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "source_hash": "sha256:8248c73481cf8c831d71e07adffd7eb9d7dde232876b7c5fda0fcb18dceab858",
+        "hash": "sha256:8248c73481cf8c831d71e07adffd7eb9d7dde232876b7c5fda0fcb18dceab858"
+      }
+    ]
+  },
+  {
+    "id": "mixamo-library/animations/pistol-run-2d25c98bfe2ba8a5b2c5-8d5977af883f-a74ddc14ae2e-inplace",
+    "source_path": "mixamo-library/animations/pistol-run__2d25c98bfe2ba8a5b2c5_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+    "hash": "sha256:0714a3b975b1b76b653fe4c3fd8a03f10411757e0679ecc71a0aa782a5dc0ac5",
+    "license": "Adobe/Mixamo terms",
+    "provider": {
+      "product_id": "c9cdb75a-b96c-11e4-a802-0aaa78deedf9",
+      "character_id": "4f5d21e1-4ccc-41f1-b35b-fb2547bd8493",
+      "variant": "inplace",
+      "export_settings_hash": "a74ddc14ae2e133f2264eb8c4af80d851a00664a34de4ba9712a683384520d27",
+      "relative_path": "mixamo-library/animations/pistol-run__2d25c98bfe2ba8a5b2c5_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+      "hash": "0714a3b975b1b76b653fe4c3fd8a03f10411757e0679ecc71a0aa782a5dc0ac5",
+      "bytes": 382640,
+      "export_settings": {
+        "format": "fbx7",
+        "fps": 30,
+        "skin": false
+      },
+      "downloaded_at": "2026-11-19T15:59:36.438Z",
+      "product_url": "https://www.mixamo.com/#/?page=1&query=Pistol%20Run",
+      "terms": "Adobe/Mixamo terms",
+      "terms_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+      "asset_id": "mixamo-library/animations/pistol-run-2d25c98bfe2ba8a5b2c5-8d5977af883f-a74ddc14ae2e-inplace"
+    },
+    "license_evidence": {
+      "status": "unknown",
+      "identifier": null,
+      "commercial_use": null,
+      "evidence": []
+    },
+    "copied_at": "2026-11-19T16:00:46.225Z",
+    "format": "fbx",
+    "files": [
+      {
+        "source_path": "mixamo-library/animations/pistol-run__2d25c98bfe2ba8a5b2c5_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "path": "pistol-run__2d25c98bfe2ba8a5b2c5_8d5977af883f_a74ddc14ae2e_inplace.fbx",
+        "source_hash": "sha256:0714a3b975b1b76b653fe4c3fd8a03f10411757e0679ecc71a0aa782a5dc0ac5",
+        "hash": "sha256:0714a3b975b1b76b653fe4c3fd8a03f10411757e0679ecc71a0aa782a5dc0ac5"
+      }
+    ]
+  }
+]

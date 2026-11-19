@@ -1,0 +1,26 @@
+{
+  "creator": "Mixamo",
+  "name": "x-bot",
+  "title": "X Bot",
+  "source_url": "https://www.mixamo.com/",
+  "license": "Adobe Mixamo terms",
+  "license_url": "https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html",
+  "status": "downloaded",
+  "local_path": "/Users/marlon/game_assets/Mixamo/x-bot",
+  "model_files": 1,
+  "formats": [
+    "fbx"
+  ],
+  "files": 3,
+  "extracted_bytes": 1753238,
+  "sha256": "86c34b0e940326fbb9035f15d250cbda2ab4961caf6b4dfe76f56613d50938be",
+  "original_filename": "X Bot (1).fbx",
+  "skeleton": {
+    "type": "Mixamo humanoid",
+    "bone_count": 65,
+    "root": "mixamorig:Hips"
+  },
+  "animation_note": "Contains a two-frame action. Compatible humanoid animations can be applied; other skeletons require retargeting.",
+  "provided_by": "user",
+  "organized_at": "2026-10-31T17:29:24.933113+00:00"
+}

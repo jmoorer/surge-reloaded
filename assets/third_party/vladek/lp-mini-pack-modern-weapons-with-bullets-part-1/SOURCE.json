@@ -1,0 +1,27 @@
+{
+  "creator": "Vladek",
+  "name": "LP mini pack modern weapons(with bullets) Part 1",
+  "source_url": "https://sketchfab.com/3d-models/lp-mini-pack-modern-weaponswith-bullets-part-1-797453290f6a42558dfe4a95098fb19d",
+  "license": "SKETCHFAB Standard",
+  "license_evidence": {
+    "status": "unknown",
+    "identifier": null,
+    "commercial_use": null,
+    "evidence": []
+  },
+  "license_override": {
+    "value": "SKETCHFAB Standard",
+    "provided_by": "user"
+  },
+  "source_metadata": null,
+  "status": "imported",
+  "files": 1,
+  "extracted_bytes": 760032,
+  "formats": [
+    "glb"
+  ],
+  "local_path": "/Users/marlon/game_assets/Vladek/LP mini pack modern weapons(with bullets) Part 1",
+  "provided_by": "user",
+  "importer_version": "1",
+  "imported_on": "2026-11-15T15:39:55.299Z"
+}

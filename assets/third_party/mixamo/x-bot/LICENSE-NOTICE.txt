@@ -1,0 +1,6 @@
+Adobe Mixamo asset. Royalty-free use in personal, commercial and nonprofit projects is described in Adobe’s FAQ. This is not a CC0 asset. Keep use subject to Adobe/Mixamo terms.
+
+Official FAQ: https://helpx.adobe.com/creative-cloud/faq/mixamo-faq.html
+Licensing guidance: https://community.adobe.com/questions-696/mixamo-faq-licensing-royalties-ownership-eula-and-tos-589400
+
+Do not redistribute the raw models as a standalone asset collection.
