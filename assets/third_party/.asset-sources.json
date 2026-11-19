@@ -1,0 +1,67 @@
+[
+  {
+    "id": "kenney/mini-characters/character-male-a",
+    "source_path": "Kenney/mini-characters/Models/GLB format/character-male-a.glb",
+    "hash": "sha256:77572792bfe2773b715b8cd8e18644b52b3e1f155fe10450254b50f9c364382a",
+    "license": "CC0-1.0",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "Kenney/mini-characters/License.txt",
+          "text": "\t\r\n\r\n\tMini Characters (1.0)\r\n\r\n\tCreated/distributed by Kenney (www.kenney.nl)\r\n\tCreation date: 17-07-2024 11:31\r\n\t\r\n\t\t\t------------------------------\r\n\r\n\tLicense: (Creative Commons Zero, CC0)\r\n\thttp://creativecommons.org/publicdomain/zero/1.0/\r\n\r\n\tYou can use this content for personal, educational, and commercial purposes.\r\n\r\n\tSupport by crediting 'Kenney' or 'www.kenney.nl' (this is not a requirement)\r\n\r\n\t\t\t------------------------------\r\n\r\n\t• Website : www.kenney.nl\r\n\t• Donate  : www.kenney.nl/donate\r\n\r\n\t• Patreon : patreon.com/kenney\r\n\t\r\n\tFollow on social media for updates:\r\n\r\n\t• Twitter:   twitter.com/KenneyNL\r\n\t• Instagram: instagram.com/kenney_nl\r\n\t• Mastodon:  mastodon.gamedev.place/@kenney",
+          "observed_at": "2026-11-15T15:35:31.368Z",
+          "sha256": "28358ae5accc85b572eb42507956afc8beae05acb4648bb9026a5714d421b785"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "Kenney",
+      "name": "mini-characters",
+      "source_url": "https://kenney.nl/assets/mini-characters",
+      "license": "CC0-1.0",
+      "download_bytes": 2403059,
+      "archive_sha256": "9e1d48e6d7b8479ebbe84df71eb5bd8e1b3f0da546dea641890dccc8a02d0999",
+      "status": "downloaded",
+      "model_files": 78,
+      "files": 139,
+      "local_path": "/Users/marlon/game_assets/Kenney/mini-characters",
+      "extracted_bytes": 13857528,
+      "formats": [
+        "fbx",
+        "glb",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-19T14:12:07.127Z",
+    "format": "glb",
+    "files": [
+      {
+        "source_path": "Kenney/mini-characters/Models/GLB format/Textures/colormap.png",
+        "path": "kenney/mini-characters/Models/GLB format/Textures/colormap.png",
+        "source_hash": "sha256:0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e",
+        "hash": "sha256:0d4947d34ff32acf4a359c7f22ca784e057e7e72f622170a9a77b6fc88fdb70e"
+      },
+      {
+        "source_path": "Kenney/mini-characters/Models/GLB format/character-male-a.glb",
+        "path": "kenney/mini-characters/Models/GLB format/character-male-a.glb",
+        "source_hash": "sha256:77572792bfe2773b715b8cd8e18644b52b3e1f155fe10450254b50f9c364382a",
+        "hash": "sha256:77572792bfe2773b715b8cd8e18644b52b3e1f155fe10450254b50f9c364382a"
+      },
+      {
+        "source_path": "Kenney/mini-characters/License.txt",
+        "path": "kenney/mini-characters/License.txt",
+        "source_hash": "sha256:28358ae5accc85b572eb42507956afc8beae05acb4648bb9026a5714d421b785",
+        "hash": "sha256:28358ae5accc85b572eb42507956afc8beae05acb4648bb9026a5714d421b785"
+      },
+      {
+        "source_path": "Kenney/mini-characters/SOURCE.json",
+        "path": "kenney/mini-characters/SOURCE.json",
+        "source_hash": "sha256:861f7abbd1c7886ae82c173d295192559edee77886afa87a34aa0d96cbea780f",
+        "hash": "sha256:861f7abbd1c7886ae82c173d295192559edee77886afa87a34aa0d96cbea780f"
+      }
+    ]
+  }
+]

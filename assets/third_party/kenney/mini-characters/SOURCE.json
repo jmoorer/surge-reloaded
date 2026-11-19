@@ -1,0 +1,18 @@
+{
+  "creator": "Kenney",
+  "name": "mini-characters",
+  "source_url": "https://kenney.nl/assets/mini-characters",
+  "license": "CC0-1.0",
+  "download_bytes": 2403059,
+  "archive_sha256": "9e1d48e6d7b8479ebbe84df71eb5bd8e1b3f0da546dea641890dccc8a02d0999",
+  "status": "downloaded",
+  "model_files": 78,
+  "files": 139,
+  "local_path": "/Users/marlon/game_assets/Kenney/mini-characters",
+  "extracted_bytes": 13857528,
+  "formats": [
+    "fbx",
+    "glb",
+    "obj"
+  ]
+}
