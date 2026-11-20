@@ -68,3 +68,7 @@ dose={
 "deadzone": 0.2,
 "events": [Object(InputEventKey,"physical_keycode":81)]
 }
+
+[editor]
+
+export/convert_text_resources_to_binary=false
