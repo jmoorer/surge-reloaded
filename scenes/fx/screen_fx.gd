@@ -3,7 +3,7 @@ extends CanvasLayer
 ## Full-screen grade driven by the Dose: grey while sober, a snap to full colour on a pill,
 ## a slow drain back to grey when it wears off, blur/double vision while crashing.
 
-const SOBER_SATURATION := 0.18
+const SOBER_SATURATION := 0.35
 const DOSED_SATURATION := 1.25
 
 @export var dose: Dose

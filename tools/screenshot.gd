@@ -17,7 +17,18 @@ func _initialize() -> void:
 	current_scene = level
 	await process_frame
 	var player := level.get_node_or_null("Player")
-	if player and setup == "end":
+	if player:
+		player.set_process_unhandled_input(false)  # Real mouse must not move the camera.
+	if player and setup == "wall":
+		player.global_position = Vector3(-4.5, 0, 34)
+		player.get_node("CameraYaw").rotation.y = deg_to_rad(90)
+		player.get_node("CameraYaw/CameraPitch").rotation.x = deg_to_rad(12)
+	elif player and setup == "facade":
+		player.global_position = Vector3(3, 0, 20)
+		player.get_node("CameraYaw").rotation.y = deg_to_rad(70)
+		player.dose.add_pills(1)
+		player.dose.take()
+	elif player and setup == "end":
 		player.global_position = Vector3(2, 0, -44)
 	elif player and setup == "pause":
 		(level.get_node("Run") as RunDirector).pause()

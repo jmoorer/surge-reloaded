@@ -1,0 +1,17 @@
+{
+  "creator": "KayKit",
+  "name": "KayKit-City-Builder-Bits-1.0",
+  "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+  "license": "CC0-1.0",
+  "download_bytes": 958876,
+  "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+  "status": "downloaded",
+  "model_files": 102,
+  "files": 208,
+  "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+  "extracted_bytes": 3889530,
+  "formats": [
+    "gltf",
+    "obj"
+  ]
+}
