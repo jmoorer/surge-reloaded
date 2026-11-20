@@ -54,5 +54,5 @@ func _physics_process(delta: float) -> void:
 
 
 func reset() -> void:
-	current = max_health
+	current = cap
 	changed.emit(current, max_health)

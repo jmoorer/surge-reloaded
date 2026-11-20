@@ -56,6 +56,7 @@ func _ready() -> void:
 	health.died.connect(_die)
 	_pistol.fired.connect(_on_pistol_fired)
 	dose.modifiers_changed.connect(_apply_modifiers)
+	dose.crash_started.connect(_on_crash_started)
 	PistolClips.install(_anim)
 	add_to_group(&"player")
 	_play(&"idle")
@@ -172,6 +173,15 @@ func _apply_modifiers(m: PlayerModifiers) -> void:
 	_pistol.damage_multiplier = m.weapon_damage
 	_pistol.fire_rate_multiplier = m.fire_rate
 	_pistol.reload_speed_multiplier = m.reload_speed
+
+
+## Crashing makes you easy prey: nearby cops come looking.
+func _on_crash_started(_severity: int, _duration: float) -> void:
+	for enemy in get_tree().get_nodes_in_group(&"enemies"):
+		var cop := enemy as Node3D
+		if cop and cop.has_method("alert_to") \
+				and cop.global_position.distance_to(global_position) <= dose.crash_alert_radius:
+			cop.alert_to(global_position)
 
 
 func _on_pistol_fired(_ammo: int) -> void:

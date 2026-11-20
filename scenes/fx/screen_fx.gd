@@ -10,6 +10,8 @@ const DOSED_SATURATION := 1.25
 
 var _mat: ShaderMaterial
 var _sat_tween: Tween
+var _blur := 0.0
+var _blur_target := 0.0
 
 @onready var _rect: ColorRect = $Grade
 
@@ -42,16 +44,26 @@ func _on_dose_started(power: StringName, _n: int, _revealed: bool) -> void:
 func _on_dose_ended(_n: int) -> void:
 	if _sat_tween:
 		_sat_tween.kill()
-	_sat_tween = create_tween()
+	_sat_tween = create_tween().set_parallel()
 	_sat_tween.tween_method(_set_sat, saturation(), SOBER_SATURATION, 2.5) \
 		.set_trans(Tween.TRANS_SINE).set_ease(Tween.EASE_IN_OUT)
+	_sat_tween.tween_method(_set_tint, _mat.get_shader_parameter("tint"), Color.WHITE, 0.3)
+
+
+func blur() -> float:
+	return _blur
+
+
+func _process(delta: float) -> void:
+	if is_equal_approx(_blur, _blur_target):
+		return
+	_blur = move_toward(_blur, _blur_target, delta * 0.6)
+	_mat.set_shader_parameter("blur", _blur)
+	_mat.set_shader_parameter("vignette", 0.35 + _blur * 0.45)
 
 
 func _on_modifiers_changed(mods: PlayerModifiers) -> void:
-	var tween := create_tween()
-	tween.tween_method(func(v: float) -> void: _mat.set_shader_parameter("blur", v),
-		float(_mat.get_shader_parameter("blur")), mods.blur, 1.5)
-	_mat.set_shader_parameter("vignette", 0.35 + mods.blur * 0.4)
+	_blur_target = mods.blur
 
 
 func _set_sat(v: float) -> void:
