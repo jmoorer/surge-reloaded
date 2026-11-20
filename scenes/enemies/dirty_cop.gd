@@ -75,6 +75,7 @@ var _own_rids: Array[RID] = []
 @onready var _model: Node3D = $Model
 @onready var _pistol: Pistol = %Pistol
 @onready var _label: Label3D = $StateLabel
+@onready var _nav: NavigationAgent3D = $NavAgent
 @onready var _anim: AnimationPlayer = _model.find_child("AnimationPlayer", true, false) as AnimationPlayer
 
 
@@ -117,7 +118,7 @@ func _physics_process(delta: float) -> void:
 	match state:
 		State.PATROL:
 			move_to = _tick_patrol(delta)
-			face = move_to
+			face = _steer_point(move_to) if move_to != null else null
 		State.ALERT:
 			face = last_known_position
 			if _state_time >= reaction_time:
@@ -128,7 +129,7 @@ func _physics_process(delta: float) -> void:
 		State.SEARCH:
 			move_to = _tick_search(delta)
 			speed = run_speed
-			face = move_to if move_to != null else null
+			face = _steer_point(move_to) if move_to != null else null
 
 	_move(move_to, speed, delta)
 	if face != null:
@@ -290,13 +291,29 @@ func _die() -> void:
 func _move(goal: Variant, speed: float, delta: float) -> void:
 	var target_velocity := Vector3.ZERO
 	if goal != null:
-		var to: Vector3 = goal - global_position
+		var to: Vector3 = _steer_point(goal) - global_position
 		to.y = 0.0
 		if to.length_squared() > 0.0001:
 			target_velocity = to.normalized() * speed
 	velocity.x = move_toward(velocity.x, target_velocity.x, acceleration * speed * delta)
 	velocity.z = move_toward(velocity.z, target_velocity.z, acceleration * speed * delta)
 	move_and_slide()
+
+
+## Next corner on the navmesh path to goal; goal itself when the level has no navmesh.
+func _steer_point(goal: Vector3) -> Vector3:
+	var map := _nav.get_navigation_map()
+	if not map.is_valid() or NavigationServer3D.map_get_iteration_id(map) == 0 \
+			or NavigationServer3D.map_get_regions(map).is_empty():
+		return goal
+	if _nav.target_position.distance_squared_to(goal) > 0.25:
+		_nav.target_position = goal
+	if _nav.is_navigation_finished():
+		return goal
+	var next := _nav.get_next_path_position()
+	if Vector2(next.x - global_position.x, next.z - global_position.z).length_squared() < 0.0001:
+		return goal
+	return next
 
 
 func _turn_toward(point: Vector3, delta: float) -> void:
@@ -311,7 +328,7 @@ func _reached(goal: Vector3, speed: float, delta: float) -> bool:
 	return flat.length() <= maxf(0.4, speed * delta)
 
 
-## True when no progress toward goal for 2 s (blocked by cover; no navmesh yet).
+## True when no progress toward goal for 2 s (blocked, or goal off the navmesh).
 func _is_stuck(goal: Vector3, delta: float) -> bool:
 	var dist := Vector2(goal.x - global_position.x, goal.z - global_position.z).length()
 	if dist < _stuck_best - 0.25:

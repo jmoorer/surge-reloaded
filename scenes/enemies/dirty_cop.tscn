@@ -74,3 +74,8 @@ pixel_size = 0.0012
 font_size = 20
 outline_size = 6
 text = "PATROL"
+
+[node name="NavAgent" type="NavigationAgent3D" parent="."]
+path_desired_distance = 0.6
+target_desired_distance = 0.5
+radius = 0.4
