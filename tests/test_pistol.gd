@@ -91,7 +91,7 @@ func _initialize() -> void:
 	_check(r.ammo == r.magazine_size and not r.is_reloading, "reload refills magazine")
 
 	# 7. Input actions the player relies on exist (an editor save once dropped them).
-	for action in ["shoot", "reload", "move_forward", "sprint"]:
+	for action in ["shoot", "reload", "move_forward", "sprint", "dose"]:
 		_check(InputMap.has_action(action), "input action '%s' exists" % action)
 
 	print("%d failure(s)" % _failures)

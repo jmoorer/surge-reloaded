@@ -27,6 +27,7 @@ signal died
 @onready var _model: Node3D = $Model
 @onready var _pistol: Pistol = %Pistol
 @onready var health: Health = $Health
+@onready var dose: Dose = $Dose
 @onready var _hitboxes: Array[Hitbox] = [$Hitboxes/Body, $Hitboxes/Head]
 @onready var _anim: AnimationPlayer = _model.find_child("AnimationPlayer", true, false) as AnimationPlayer
 
@@ -35,6 +36,8 @@ var _combat_left := 0.0
 # Recoil lives on the camera as an offset that decays, never written into the look angle.
 var _recoil := Vector2.ZERO
 var is_dead := false
+var mods := PlayerModifiers.new()
+var _sway_t := 0.0
 
 
 func _ready() -> void:
@@ -52,6 +55,7 @@ func _ready() -> void:
 	_pistol.exclude = own
 	health.died.connect(_die)
 	_pistol.fired.connect(_on_pistol_fired)
+	dose.modifiers_changed.connect(_apply_modifiers)
 	PistolClips.install(_anim)
 	add_to_group(&"player")
 	_play(&"idle")
@@ -79,6 +83,8 @@ func _unhandled_input(event: InputEvent) -> void:
 		_shoot()
 	elif event.is_action_pressed("reload"):
 		_pistol.reload()
+	elif event.is_action_pressed("dose"):
+		dose.take()
 
 
 func _shoot() -> void:
@@ -107,7 +113,7 @@ func _physics_process(delta: float) -> void:
 	direction = direction.normalized()
 
 	var sprinting := Input.is_action_pressed("sprint") and not in_combat
-	var target_speed := sprint_speed if sprinting else walk_speed
+	var target_speed := (sprint_speed if sprinting else walk_speed) * mods.speed
 	var target := direction * target_speed
 	velocity.x = move_toward(velocity.x, target.x, acceleration * target_speed * delta)
 	velocity.z = move_toward(velocity.z, target.z, acceleration * target_speed * delta)
@@ -126,8 +132,11 @@ func _physics_process(delta: float) -> void:
 
 func _process(delta: float) -> void:
 	_recoil = _recoil.lerp(Vector2.ZERO, 1.0 - exp(-recoil_recovery * delta))
+	# Crash sway: slow figure-eight drift the player has to fight to keep aim.
+	_sway_t += delta
+	var sway := Vector2(sin(_sway_t * 1.1) * 0.6, sin(_sway_t * 0.7 + 1.0)) * deg_to_rad(mods.sway_deg)
 	# On the arm, not the Camera3D: SpringArm3D resets its child's transform every tick.
-	_spring_arm.rotation = Vector3(_recoil.x, _recoil.y, 0.0)
+	_spring_arm.rotation = Vector3(_recoil.x + sway.x, _recoil.y + sway.y, 0.0)
 
 
 func _die() -> void:
@@ -144,6 +153,25 @@ func _die() -> void:
 	tween.tween_property(_model, "rotation:x", deg_to_rad(-85.0), 0.6) \
 		.set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
 	died.emit()
+
+
+## Picks something up. Returns false if it can't be taken (it then stays in the world).
+func collect(kind: Pickup.Kind, amount: int) -> bool:
+	match kind:
+		Pickup.Kind.PILL:
+			dose.add_pills(amount)
+			return true
+	return false
+
+
+func _apply_modifiers(m: PlayerModifiers) -> void:
+	mods = m
+	health.damage_taken_multiplier = m.damage_taken
+	health.regen_per_second = m.regen_per_second
+	health.cap = health.max_health * (1.0 - m.max_health_penalty)
+	_pistol.damage_multiplier = m.weapon_damage
+	_pistol.fire_rate_multiplier = m.fire_rate
+	_pistol.reload_speed_multiplier = m.reload_speed
 
 
 func _on_pistol_fired(_ammo: int) -> void:

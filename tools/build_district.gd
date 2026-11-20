@@ -66,6 +66,11 @@ const COPS := [
 	["CopD", 0.0, -52.0, [[-5.0, -52.0], [5.0, -52.0]]],
 ]
 
+## Pills: [x, z]. Few enough that dosing is a choice; one early so the genome gets revealed.
+const PILLS := [[2.0, 36.0], [-22.0, -7.0], [6.5, -26.0], [-6.0, -44.0]]
+
+const PILL := preload("res://scenes/pickups/pill.tscn")
+
 var _mats := {}
 var _scene_root: Node3D
 
@@ -142,6 +147,17 @@ func _initialize() -> void:
 	spawn.name = "PlayerSpawn"
 	_add(root_node, spawn)
 	spawn.position = player.position
+
+	var pickups := Node3D.new()
+	pickups.name = "Pickups"
+	_add(root_node, pickups)
+	i = 0
+	for p in PILLS:
+		i += 1
+		var pill: Node3D = PILL.instantiate()
+		pill.name = "Pill%d" % i
+		_add(pickups, pill)
+		pill.position = Vector3(p[0], 0, p[1])
 
 	var cops := Node3D.new()
 	cops.name = "Cops"

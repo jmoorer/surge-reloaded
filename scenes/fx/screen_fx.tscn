@@ -1,0 +1,26 @@
+[gd_scene load_steps=4 format=3]
+
+[ext_resource type="Script" path="res://scenes/fx/screen_fx.gd" id="1_fx"]
+[ext_resource type="Shader" path="res://scenes/fx/screen_fx.gdshader" id="2_shader"]
+
+[sub_resource type="ShaderMaterial" id="GradeMat"]
+shader = ExtResource("2_shader")
+shader_parameter/saturation = 0.18
+shader_parameter/contrast = 1.05
+shader_parameter/tint = Color(1, 1, 1, 1)
+shader_parameter/vignette = 0.35
+shader_parameter/blur = 0.0
+shader_parameter/time_offset = 0.0
+
+[node name="ScreenFX" type="CanvasLayer"]
+layer = 0
+script = ExtResource("1_fx")
+
+[node name="Grade" type="ColorRect" parent="."]
+material = SubResource("GradeMat")
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
