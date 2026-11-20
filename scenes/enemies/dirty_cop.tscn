@@ -1,0 +1,76 @@
+[gd_scene load_steps=10 format=3]
+
+[ext_resource type="Script" path="res://scenes/enemies/dirty_cop.gd" id="1_script"]
+[ext_resource type="PackedScene" path="res://assets/third_party/mixamo/x-bot/X Bot.fbx" id="2_model"]
+[ext_resource type="PackedScene" path="res://scenes/weapons/pistol.tscn" id="3_pistol"]
+[ext_resource type="Script" path="res://scripts/components/health.gd" id="4_health"]
+[ext_resource type="Script" path="res://scripts/components/hitbox.gd" id="5_hitbox"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_body"]
+radius = 0.35
+height = 1.8
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_hit_body"]
+radius = 0.32
+height = 1.35
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_hit_head"]
+radius = 0.16
+
+[node name="DirtyCop" type="CharacterBody3D"]
+collision_layer = 8
+collision_mask = 3
+script = ExtResource("1_script")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.9, 0)
+shape = SubResource("CapsuleShape3D_body")
+
+[node name="Health" type="Node" parent="."]
+script = ExtResource("4_health")
+
+[node name="Hitboxes" type="Node3D" parent="."]
+
+[node name="Body" type="StaticBody3D" parent="Hitboxes" node_paths=PackedStringArray("health")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8, 0)
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("5_hitbox")
+health = NodePath("../../Health")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hitboxes/Body"]
+shape = SubResource("CapsuleShape3D_hit_body")
+
+[node name="Head" type="StaticBody3D" parent="Hitboxes" node_paths=PackedStringArray("health")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.62, 0)
+collision_layer = 4
+collision_mask = 0
+script = ExtResource("5_hitbox")
+health = NodePath("../../Health")
+damage_multiplier = 2.5
+is_weak_spot = true
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="Hitboxes/Head"]
+shape = SubResource("SphereShape3D_hit_head")
+
+[node name="Model" parent="." instance=ExtResource("2_model")]
+
+[node name="RightHand" type="BoneAttachment3D" parent="Model/Skeleton3D"]
+bone_name = "mixamorig_RightHand"
+
+[node name="Grip" type="Node3D" parent="Model/Skeleton3D/RightHand"]
+transform = Transform3D(0, 1, 0, 0, 0, -1, -1, 0, 0, 0, 0.07, 0.03)
+
+[node name="Pistol" parent="Model/Skeleton3D/RightHand/Grip" instance=ExtResource("3_pistol")]
+unique_name_in_owner = true
+damage = 15.0
+
+[node name="StateLabel" type="Label3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.15, 0)
+billboard = 1
+no_depth_test = true
+fixed_size = true
+pixel_size = 0.0012
+font_size = 20
+outline_size = 6
+text = "PATROL"
