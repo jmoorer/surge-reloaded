@@ -23,6 +23,7 @@ func _ready() -> void:
 		dose.dose_started.connect(_on_dose_started)
 		dose.dose_ended.connect(_on_dose_ended)
 		dose.modifiers_changed.connect(_on_modifiers_changed)
+		dose.restored.connect(_on_restored)
 
 
 func saturation() -> float:
@@ -64,6 +65,13 @@ func _process(delta: float) -> void:
 
 func _on_modifiers_changed(mods: PlayerModifiers) -> void:
 	_blur_target = mods.blur
+
+
+func _on_restored() -> void:
+	if _sat_tween:
+		_sat_tween.kill()
+	_set_sat(DOSED_SATURATION if dose.is_dosed else SOBER_SATURATION)
+	_set_tint(Color.WHITE)
 
 
 func _set_sat(v: float) -> void:

@@ -10,6 +10,8 @@ signal dose_ended(dose_number: int)
 signal modifiers_changed(mods: PlayerModifiers)
 signal crash_started(severity: int, duration: float)
 signal crash_ended
+## Emitted after from_dict(): listeners resync their visuals without replaying effects.
+signal restored
 
 @export var duration: float = 75.0
 @export var starting_pills: int = 0
@@ -144,3 +146,24 @@ func _modify_extra(m: PlayerModifiers) -> void:
 	m.max_health_penalty = maxf(m.max_health_penalty, minf(0.25 + 0.1 * s, 0.6) * k)
 	m.speed *= lerpf(1.0, maxf(0.85 - 0.05 * s, 0.65), k)
 	m.reload_speed *= lerpf(1.0, 0.75, k)
+
+
+func to_dict() -> Dictionary:
+	return {
+		"genome": String(genome), "genome_revealed": genome_revealed, "pills": pills,
+		"doses_taken": doses_taken, "time_left": time_left,
+		"crash_left": crash_left, "crash_duration": crash_duration,
+	}
+
+
+func from_dict(d: Dictionary) -> void:
+	genome = StringName(d.get("genome", genome))
+	genome_revealed = d.get("genome_revealed", false)
+	pills = int(d.get("pills", 0))
+	doses_taken = int(d.get("doses_taken", 0))
+	time_left = float(d.get("time_left", 0.0))
+	crash_left = float(d.get("crash_left", 0.0))
+	crash_duration = float(d.get("crash_duration", 0.0))
+	_recompute()
+	pills_changed.emit(pills)
+	restored.emit()

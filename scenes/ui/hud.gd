@@ -13,6 +13,8 @@ var _restart_ready := false
 var _flash_tween: Tween
 var _locked: ColorRect  # Part of the health bar the crash has taken away.
 var _pills: Label
+var _samples: Label
+var _death_note: Label
 var _dose_bar: ProgressBar
 var _dose_label: Label
 var _banner: VBoxContainer
@@ -39,11 +41,16 @@ func _ready() -> void:
 		pistol.reload_started.connect(func(_t: float) -> void: _ammo.text = "RELOADING")
 		_on_ammo_changed.call_deferred(pistol.magazine_size, pistol.magazine_size)
 	_build_dose_ui()
+	var player := owner as Player
+	if player:
+		player.samples_changed.connect(_on_samples_changed)
+		_on_samples_changed.call_deferred(player.samples)
 	if dose:
 		dose.pills_changed.connect(_on_pills_changed)
 		dose.dose_started.connect(_on_dose_started)
 		dose.crash_started.connect(_on_crash_started)
 		dose.crash_ended.connect(func() -> void: _dose_bar.hide())
+		dose.restored.connect(_on_dose_restored)
 		_on_pills_changed.call_deferred(dose.pills)
 	if health == null:
 		push_warning("HUD has no health assigned")
@@ -82,9 +89,29 @@ func show_banner(title: String, desc: String, color: Color, hold: float = 2.5) -
 	_banner_tween.tween_callback(_banner.hide)
 
 
+func _on_samples_changed(count: int) -> void:
+	_samples.text = "SAMPLES  %d" % count
+	_samples.modulate = Color(1.0, 0.75, 0.35) if count > 0 else Color(1, 1, 1, 0.5)
+
+
+## Extra line on the death screen (e.g. what the death cost).
+func set_death_note(text: String) -> void:
+	_death_note.text = text
+
+
 func _on_pills_changed(count: int) -> void:
 	_pills.text = "PILLS  %d   [Q]" % count if count > 0 else "PILLS  0"
 	_pills.modulate = Color(0.6, 0.9, 1.0) if count > 0 else Color(1, 1, 1, 0.5)
+
+
+func _on_dose_restored() -> void:
+	_dose_bar.visible = dose.is_dosed or dose.is_crashing
+	if dose.is_dosed:
+		_dose_bar.max_value = dose.duration
+		(_dose_bar.get_theme_stylebox("fill") as StyleBoxFlat).bg_color = Powers.color(dose.genome)
+	elif dose.is_crashing:
+		_dose_bar.max_value = dose.crash_duration
+		(_dose_bar.get_theme_stylebox("fill") as StyleBoxFlat).bg_color = Color(0.55, 0.5, 0.5)
 
 
 func _on_crash_started(severity: int, duration: float) -> void:
@@ -124,6 +151,18 @@ func _build_dose_ui() -> void:
 	_pills.offset_bottom = -122
 	_pills.offset_left = 32
 	_pills.offset_right = 400
+
+	_samples = _label(22)
+	_samples.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
+	_samples.offset_top = -180
+	_samples.offset_bottom = -152
+	_samples.offset_left = 32
+	_samples.offset_right = 400
+
+	_death_note = _label(22, $DeathScreen/Center)
+	_death_note.horizontal_alignment = HORIZONTAL_ALIGNMENT_CENTER
+	_death_note.add_theme_color_override("font_color", Color(1.0, 0.75, 0.35))
+	$DeathScreen/Center.move_child(_death_note, 1)
 
 	_dose_bar = ProgressBar.new()
 	_dose_bar.show_percentage = false

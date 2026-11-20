@@ -49,6 +49,8 @@ const AIM_HEIGHT := 1.1
 @export var search_time: float = 4.0
 ## 0 = random each run.
 @export var rng_seed: int = 0
+## Spawned where the cop dies (a Sample: dealers' cops carry product).
+@export var drop_scene: PackedScene
 
 var state: State = State.PATROL
 var can_see_target := false
@@ -291,7 +293,28 @@ func _die() -> void:
 	var tween := create_tween()
 	tween.tween_property(_model, "rotation:x", deg_to_rad(-85.0), 0.6) \
 		.set_trans(Tween.TRANS_BOUNCE).set_ease(Tween.EASE_OUT)
+	if drop_scene:
+		var drop: Node3D = drop_scene.instantiate()
+		get_parent().add_child.call_deferred(drop)
+		drop.set_deferred("global_position", global_position + global_basis.z * 0.8)
 	died.emit()
+
+
+func to_dict() -> Dictionary:
+	return {
+		"position": SaveGame.vec3(global_position), "yaw": rotation.y,
+		"health": health.current, "dead": state == State.DEAD,
+	}
+
+
+## Dead cops are removed outright (their drop was saved with the other pickups).
+func from_dict(d: Dictionary) -> void:
+	if d.get("dead", false):
+		queue_free()
+		return
+	global_position = SaveGame.to_vec3(d.get("position"))
+	rotation.y = float(d.get("yaw", rotation.y))
+	health.current = float(d.get("health", health.max_health))
 
 
 # --- Movement ---------------------------------------------------------------------------

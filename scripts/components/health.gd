@@ -10,17 +10,16 @@ signal died
 var damage_taken_multiplier := 1.0
 ## Health regained per second while alive (powers raise it).
 var regen_per_second := 0.0
-## Highest health currently allowed; below max_health while crashing.
-var cap: float:
-	get:
-		return _cap if _cap >= 0.0 else max_health
+## Fraction of max_health currently allowed (below 1 while crashing).
+var cap_fraction := 1.0:
 	set(value):
-		_cap = value
+		cap_fraction = clampf(value, 0.0, 1.0)
 		if current > cap:
 			current = cap
 			changed.emit(current, max_health)
-
-var _cap := -1.0
+var cap: float:
+	get:
+		return max_health * cap_fraction
 
 var current: float
 var is_dead: bool:

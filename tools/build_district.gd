@@ -70,6 +70,14 @@ const COPS := [
 const PILLS := [[2.0, 36.0], [-22.0, -7.0], [6.5, -26.0], [-6.0, -44.0]]
 
 const PILL := preload("res://scenes/pickups/pill.tscn")
+const SAMPLE := preload("res://scenes/pickups/sample.tscn")
+const EXTRACTION := preload("res://scenes/props/extraction_zone.tscn")
+const RUN_DIRECTOR := preload("res://scripts/run/run_director.gd")
+
+## Samples: [x, z]. Riskier spots hold more of them (alley, courtyard, near cops).
+const SAMPLES := [[-7.2, 44.0], [7.0, 28.0], [-20.5, -8.0], [-24.0, 6.0], [-1.0, 10.5],
+	[6.8, -8.0], [-7.0, -24.0], [0.5, -38.0], [-6.5, -56.0]]
+const EXTRACTION_AT := Vector3(4.0, 0.0, -57.0)
 
 var _mats := {}
 var _scene_root: Node3D
@@ -159,6 +167,19 @@ func _initialize() -> void:
 		_add(pickups, pill)
 		pill.position = Vector3(p[0], 0, p[1])
 
+	i = 0
+	for p in SAMPLES:
+		i += 1
+		var sample: Node3D = SAMPLE.instantiate()
+		sample.name = "Sample%d" % i
+		_add(pickups, sample)
+		sample.position = Vector3(p[0], 0, p[1])
+
+	var zone: Node3D = EXTRACTION.instantiate()
+	zone.name = "Extraction"
+	_add(root_node, zone)
+	zone.position = EXTRACTION_AT
+
 	var cops := Node3D.new()
 	cops.name = "Cops"
 	_add(root_node, cops)
@@ -180,6 +201,16 @@ func _initialize() -> void:
 		cop.rotation_degrees.y = 0.0  # Face +Z, toward where the player comes from.
 		cop.patrol_path = path
 
+
+	# Last child: every sibling is ready before it resumes a saved run.
+	var director := Node.new()
+	director.name = "Run"
+	director.set_script(RUN_DIRECTOR)
+	_add(root_node, director)
+	director.set("player", player)
+	director.set("extraction", zone)
+	director.set("pickups_root", pickups)
+	director.set("cops_root", cops)
 
 	var packed := PackedScene.new()
 	var err := packed.pack(root_node)

@@ -4,6 +4,11 @@ extends Area3D
 
 enum Kind { PILL, SAMPLE }
 
+const SCENES := {
+	Kind.PILL: "res://scenes/pickups/pill.tscn",
+	Kind.SAMPLE: "res://scenes/pickups/sample.tscn",
+}
+
 @export var kind: Kind = Kind.PILL
 @export var amount: int = 1
 
@@ -30,3 +35,15 @@ func _on_body_entered(body: Node3D) -> void:
 		return
 	if player.collect(kind, amount):
 		queue_free()
+
+
+func to_dict() -> Dictionary:
+	return {"kind": kind, "amount": amount, "position": SaveGame.vec3(global_position)}
+
+
+static func from_dict(d: Dictionary) -> Pickup:
+	var scene: PackedScene = load(SCENES.get(int(d.get("kind", 0)), SCENES[Kind.PILL]))
+	var p: Pickup = scene.instantiate()
+	p.amount = int(d.get("amount", 1))
+	p.position = SaveGame.to_vec3(d.get("position"))
+	return p
