@@ -22,22 +22,10 @@
 2. **The Crash** — When the dose ends: weapon sway, slower aim, blurred vision, less health. More pills per run = worse crash. This is the risk that makes choosing _when_ to dose matter.
 3. **Extract or Lose It** — Samples collected during a run only count if you reach the extraction point. Death wipes the run. Save-and-quit is allowed (the save deletes on load).
 
-_Everything else — research hub, power tiers, overload deaths, story, bosses — is **after launch**._
+_Research hub, final powers, power tiers, overload, boss, and story are scheduled in Pass 2 — see the roadmap._
 
 ---
 
-## Milestones (hobby pace, ~6–8 hrs/week)
+## Milestones
 
-| #   | Milestone                 | Done when…                                                                                 | Est.    |
-| --- | ------------------------- | ------------------------------------------------------------------------------------------ | ------- |
-| 1   | **Move & shoot**          | Third-person controller, pointer lock, hitscan pistol, target dummy. Shooting feels good.  | 3–4 wks |
-| 2   | **One enemy, one street** | Dirty cop patrols, spots you, shoots back. Player health, death, restart. Greybox street.  | 3–4 wks |
-| 3   | **The Dose**              | Pill pickup, 75s timer, colour snap, 2 placeholder powers rolled per run.                  | 3 wks   |
-| 4   | **The Crash**             | Crash debuffs kick in after the timer and scale with pill count.                           | 2 wks   |
-| 5   | **Full run**              | Samples, extraction point, death wipe, save-and-quit. A run start-to-finish works.         | 3 wks   |
-| 6   | **Noir art pass**         | Replace greybox with low-poly kit, rain, fog, wet reflections, streetlights, colour grade. | 3–4 wks |
-| 7   | **Ship it**               | Web build on itch.io, 5 people playtest, fix the top 3 issues.                             | 2 wks   |
-
-**Total: ~5–6 months.** Rule: no new feature until the current milestone is done and playable.
-
-**Later (only after Milestone 7):** Research hub · final power set · power tiers · overload risk · second enemy type · first boss · story/case files.
+**Current: M8 — Surged dealer.** Full plan, checklists, and history live in [`docs/roadmap.md`](docs/roadmap.md). Rule: no new feature until the current milestone is done and playable.
