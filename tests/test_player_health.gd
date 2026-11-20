@@ -12,6 +12,7 @@ func _check(ok: bool, label: String) -> void:
 
 func _initialize() -> void:
 	var level: Node3D = load("res://scenes/levels/test_street.tscn").instantiate()
+	level.get_node("DirtyCop").free()  # Covered by test_dirty_cop; would shoot the player here.
 	root.add_child(level)
 	current_scene = level
 	for _i in 3:
