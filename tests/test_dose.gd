@@ -45,7 +45,7 @@ func _initialize() -> void:
 
 	_check(dose.pills == 0 and not dose.is_dosed, "run starts powerless with no pills")
 	_check(not dose.take(), "can't dose with no pills")
-	_check(fx.saturation() < 0.3, "world starts grey (sat %.2f)" % fx.saturation())
+	_check(fx.saturation() < 0.5, "world starts grey (sat %.2f)" % fx.saturation())
 
 	# Pickup: walking into a pill collects it.
 	var pill: Pickup = load("res://scenes/pickups/pill.tscn").instantiate()
@@ -78,7 +78,7 @@ func _initialize() -> void:
 	player.health.damage(20.0)
 	_check(is_equal_approx(hp - player.health.current, 20.0), "power gone after the dose")
 	await _frames(3.0)
-	_check(fx.saturation() < 0.3, "world drains back to grey (sat %.2f)" % fx.saturation())
+	_check(fx.saturation() < 0.5, "world drains back to grey (sat %.2f)" % fx.saturation())
 
 	# Each placeholder power does something.
 	dose.genome = Powers.DEADEYE

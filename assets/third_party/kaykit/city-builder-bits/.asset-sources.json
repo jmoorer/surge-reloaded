@@ -1,0 +1,1402 @@
+[
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-a-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_A_withoutBase.gltf",
+    "hash": "sha256:37389d47e4ddec9175c40d41a48e2c1d16a1c44146833ec73fef2710e0b6876e",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.189Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_A_withoutBase.bin",
+        "path": "building_A_withoutBase.bin",
+        "source_hash": "sha256:a0446a10d14c50267c3fa6be98104e8467171b57f288448a5d740e91666d5056",
+        "hash": "sha256:a0446a10d14c50267c3fa6be98104e8467171b57f288448a5d740e91666d5056"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_A_withoutBase.gltf",
+        "path": "building_A_withoutBase.gltf",
+        "source_hash": "sha256:37389d47e4ddec9175c40d41a48e2c1d16a1c44146833ec73fef2710e0b6876e",
+        "hash": "sha256:37389d47e4ddec9175c40d41a48e2c1d16a1c44146833ec73fef2710e0b6876e"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-b-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_B_withoutBase.gltf",
+    "hash": "sha256:69b1e3d91479c8fe3134e385fef567603cecd2423a032f2a11b9f2deb7046458",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.204Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_B_withoutBase.bin",
+        "path": "building_B_withoutBase.bin",
+        "source_hash": "sha256:1fca25dd4b645058d55b069bbddc41fda2eea543a762237ed054f15bccbee34a",
+        "hash": "sha256:1fca25dd4b645058d55b069bbddc41fda2eea543a762237ed054f15bccbee34a"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_B_withoutBase.gltf",
+        "path": "building_B_withoutBase.gltf",
+        "source_hash": "sha256:69b1e3d91479c8fe3134e385fef567603cecd2423a032f2a11b9f2deb7046458",
+        "hash": "sha256:69b1e3d91479c8fe3134e385fef567603cecd2423a032f2a11b9f2deb7046458"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-c-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_C_withoutBase.gltf",
+    "hash": "sha256:f059362f96617268b7eff7a1f65f853288a79e21316e5793bbc23a0a2e937671",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.215Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_C_withoutBase.bin",
+        "path": "building_C_withoutBase.bin",
+        "source_hash": "sha256:56ab30ffadc34b91a4ec6a8cc26bb644bb1c516b25afa8fa1eac4a3968dead2b",
+        "hash": "sha256:56ab30ffadc34b91a4ec6a8cc26bb644bb1c516b25afa8fa1eac4a3968dead2b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_C_withoutBase.gltf",
+        "path": "building_C_withoutBase.gltf",
+        "source_hash": "sha256:f059362f96617268b7eff7a1f65f853288a79e21316e5793bbc23a0a2e937671",
+        "hash": "sha256:f059362f96617268b7eff7a1f65f853288a79e21316e5793bbc23a0a2e937671"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-d-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_D_withoutBase.gltf",
+    "hash": "sha256:40c07bd5026825a8cf95bf202b702fdb4858ae8a4f2236aa41a9db7a4fdd19ca",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.225Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_D_withoutBase.bin",
+        "path": "building_D_withoutBase.bin",
+        "source_hash": "sha256:6342dbff9ee312838372b094bb65ae1d36c2382e95c1c49470e579e5eeac77d2",
+        "hash": "sha256:6342dbff9ee312838372b094bb65ae1d36c2382e95c1c49470e579e5eeac77d2"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_D_withoutBase.gltf",
+        "path": "building_D_withoutBase.gltf",
+        "source_hash": "sha256:40c07bd5026825a8cf95bf202b702fdb4858ae8a4f2236aa41a9db7a4fdd19ca",
+        "hash": "sha256:40c07bd5026825a8cf95bf202b702fdb4858ae8a4f2236aa41a9db7a4fdd19ca"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-e-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_E_withoutBase.gltf",
+    "hash": "sha256:0b2ab5f634eaf0d45ccf5fe585b4a9269f1b8e5b9ab34a412bafca046087e609",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.232Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_E_withoutBase.bin",
+        "path": "building_E_withoutBase.bin",
+        "source_hash": "sha256:6403701c0185eeb53b60f76b359e99c47634c3240cd3e51f92aeeb472e7d341c",
+        "hash": "sha256:6403701c0185eeb53b60f76b359e99c47634c3240cd3e51f92aeeb472e7d341c"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_E_withoutBase.gltf",
+        "path": "building_E_withoutBase.gltf",
+        "source_hash": "sha256:0b2ab5f634eaf0d45ccf5fe585b4a9269f1b8e5b9ab34a412bafca046087e609",
+        "hash": "sha256:0b2ab5f634eaf0d45ccf5fe585b4a9269f1b8e5b9ab34a412bafca046087e609"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-f-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_F_withoutBase.gltf",
+    "hash": "sha256:7fe97913eb97fe868b440ac4f13ca60f4d36262624526bbcafcef94566016343",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.240Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_F_withoutBase.bin",
+        "path": "building_F_withoutBase.bin",
+        "source_hash": "sha256:1bed0be4aae8523a76c669c2a85794e16a64709b14ac03d10da03be721027c7f",
+        "hash": "sha256:1bed0be4aae8523a76c669c2a85794e16a64709b14ac03d10da03be721027c7f"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_F_withoutBase.gltf",
+        "path": "building_F_withoutBase.gltf",
+        "source_hash": "sha256:7fe97913eb97fe868b440ac4f13ca60f4d36262624526bbcafcef94566016343",
+        "hash": "sha256:7fe97913eb97fe868b440ac4f13ca60f4d36262624526bbcafcef94566016343"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-g-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_G_withoutBase.gltf",
+    "hash": "sha256:2a2dc998168a01bd34390d6fbb2a273e191c8b6e3258f4f3df09a37465ebf0e1",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.248Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_G_withoutBase.bin",
+        "path": "building_G_withoutBase.bin",
+        "source_hash": "sha256:34112472a38f23489211829312a8e9e994ca772ee814c5295e39c62b2d4ca376",
+        "hash": "sha256:34112472a38f23489211829312a8e9e994ca772ee814c5295e39c62b2d4ca376"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_G_withoutBase.gltf",
+        "path": "building_G_withoutBase.gltf",
+        "source_hash": "sha256:2a2dc998168a01bd34390d6fbb2a273e191c8b6e3258f4f3df09a37465ebf0e1",
+        "hash": "sha256:2a2dc998168a01bd34390d6fbb2a273e191c8b6e3258f4f3df09a37465ebf0e1"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--building-h-withoutbase",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_H_withoutBase.gltf",
+    "hash": "sha256:51d6e3ecb8d12703163c806193787bff9c034931733ca7cd497568c1d62f1793",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.255Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_H_withoutBase.bin",
+        "path": "building_H_withoutBase.bin",
+        "source_hash": "sha256:310a8c61e9d0f29a0547a57c3aa1f3890c67cab554c5bd9cd5e0768f3c8499b7",
+        "hash": "sha256:310a8c61e9d0f29a0547a57c3aa1f3890c67cab554c5bd9cd5e0768f3c8499b7"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/building_H_withoutBase.gltf",
+        "path": "building_H_withoutBase.gltf",
+        "source_hash": "sha256:51d6e3ecb8d12703163c806193787bff9c034931733ca7cd497568c1d62f1793",
+        "hash": "sha256:51d6e3ecb8d12703163c806193787bff9c034931733ca7cd497568c1d62f1793"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--car-sedan",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_sedan.gltf",
+    "hash": "sha256:96c9d38e682bc2c77470af09d1a7450208559ca652bf2cf6fd2bc20b8646ef59",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.263Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_sedan.bin",
+        "path": "car_sedan.bin",
+        "source_hash": "sha256:1d69e7f098a5456a8c6891c4fd718ad1c71397045c8931817550a8801f00338d",
+        "hash": "sha256:1d69e7f098a5456a8c6891c4fd718ad1c71397045c8931817550a8801f00338d"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_sedan.gltf",
+        "path": "car_sedan.gltf",
+        "source_hash": "sha256:96c9d38e682bc2c77470af09d1a7450208559ca652bf2cf6fd2bc20b8646ef59",
+        "hash": "sha256:96c9d38e682bc2c77470af09d1a7450208559ca652bf2cf6fd2bc20b8646ef59"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--car-taxi",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_taxi.gltf",
+    "hash": "sha256:781b3265473dab6f7e054f06c23abeba9b811516b19b61a7a88b0aa8d33e1323",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.270Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_taxi.bin",
+        "path": "car_taxi.bin",
+        "source_hash": "sha256:28abb85c4eb0d38be9b4b0beebe0a55038565b1f9545fea65f59cb56672c1d11",
+        "hash": "sha256:28abb85c4eb0d38be9b4b0beebe0a55038565b1f9545fea65f59cb56672c1d11"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_taxi.gltf",
+        "path": "car_taxi.gltf",
+        "source_hash": "sha256:781b3265473dab6f7e054f06c23abeba9b811516b19b61a7a88b0aa8d33e1323",
+        "hash": "sha256:781b3265473dab6f7e054f06c23abeba9b811516b19b61a7a88b0aa8d33e1323"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--car-police",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_police.gltf",
+    "hash": "sha256:c6f1f85c2a8f56ec0abb76deac13486d42399c6d23868e5e524a090fce652d12",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.277Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_police.bin",
+        "path": "car_police.bin",
+        "source_hash": "sha256:07bf3160554753cb6365e85c1c99dd9bf9ca4e8ffabeab5f15ff03ac18640d87",
+        "hash": "sha256:07bf3160554753cb6365e85c1c99dd9bf9ca4e8ffabeab5f15ff03ac18640d87"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_police.gltf",
+        "path": "car_police.gltf",
+        "source_hash": "sha256:c6f1f85c2a8f56ec0abb76deac13486d42399c6d23868e5e524a090fce652d12",
+        "hash": "sha256:c6f1f85c2a8f56ec0abb76deac13486d42399c6d23868e5e524a090fce652d12"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--car-hatchback",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_hatchback.gltf",
+    "hash": "sha256:e38be3dbdfbc95b0e794fc5c8164b2ff658b2dc5049b51d38179d16a9432b4f3",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.285Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_hatchback.bin",
+        "path": "car_hatchback.bin",
+        "source_hash": "sha256:e7756d8a44553ef75091bb4baa41388bcb1a1b44388008a3e670d05cb12f4c5f",
+        "hash": "sha256:e7756d8a44553ef75091bb4baa41388bcb1a1b44388008a3e670d05cb12f4c5f"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_hatchback.gltf",
+        "path": "car_hatchback.gltf",
+        "source_hash": "sha256:e38be3dbdfbc95b0e794fc5c8164b2ff658b2dc5049b51d38179d16a9432b4f3",
+        "hash": "sha256:e38be3dbdfbc95b0e794fc5c8164b2ff658b2dc5049b51d38179d16a9432b4f3"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--car-stationwagon",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_stationwagon.gltf",
+    "hash": "sha256:49f7e2bdb70183214a3e8d8576e420ebb69520b21db81dddfc6a04e1ed8994fd",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.292Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_stationwagon.bin",
+        "path": "car_stationwagon.bin",
+        "source_hash": "sha256:46d28202e738f62ba6aae5caae5d56852334ca53ac0628d88d03a5e5e3042c4b",
+        "hash": "sha256:46d28202e738f62ba6aae5caae5d56852334ca53ac0628d88d03a5e5e3042c4b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/car_stationwagon.gltf",
+        "path": "car_stationwagon.gltf",
+        "source_hash": "sha256:49f7e2bdb70183214a3e8d8576e420ebb69520b21db81dddfc6a04e1ed8994fd",
+        "hash": "sha256:49f7e2bdb70183214a3e8d8576e420ebb69520b21db81dddfc6a04e1ed8994fd"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--dumpster",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/dumpster.gltf",
+    "hash": "sha256:56353a02aa70f61ea0f94f5806c66f489b2949b64db0611b5ccf2b500c815cb9",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.300Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/dumpster.bin",
+        "path": "dumpster.bin",
+        "source_hash": "sha256:389a04cddf27b9514226597627fb0f217499432be1a26c6b43e6f2bfdb652fd2",
+        "hash": "sha256:389a04cddf27b9514226597627fb0f217499432be1a26c6b43e6f2bfdb652fd2"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/dumpster.gltf",
+        "path": "dumpster.gltf",
+        "source_hash": "sha256:56353a02aa70f61ea0f94f5806c66f489b2949b64db0611b5ccf2b500c815cb9",
+        "hash": "sha256:56353a02aa70f61ea0f94f5806c66f489b2949b64db0611b5ccf2b500c815cb9"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--trash-a",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/trash_A.gltf",
+    "hash": "sha256:dcd3a27821a9d8a781a40a393e167d51c1cdb743edf95edc59236fe32238b464",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.337Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/trash_A.bin",
+        "path": "trash_A.bin",
+        "source_hash": "sha256:3fbaf543d240f71ea70bc2052461c93e9398ca36372c1d401dcc304b2788935d",
+        "hash": "sha256:3fbaf543d240f71ea70bc2052461c93e9398ca36372c1d401dcc304b2788935d"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/trash_A.gltf",
+        "path": "trash_A.gltf",
+        "source_hash": "sha256:dcd3a27821a9d8a781a40a393e167d51c1cdb743edf95edc59236fe32238b464",
+        "hash": "sha256:dcd3a27821a9d8a781a40a393e167d51c1cdb743edf95edc59236fe32238b464"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--trash-b",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/trash_B.gltf",
+    "hash": "sha256:6b549af074a24a1d2dd916af53d33d71d251b9e7e004de67294da02d336754e3",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.354Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/trash_B.bin",
+        "path": "trash_B.bin",
+        "source_hash": "sha256:2663a8ed7fddb7768457c2fddbe31e201140a756446dec4ad5b705485ac5be7e",
+        "hash": "sha256:2663a8ed7fddb7768457c2fddbe31e201140a756446dec4ad5b705485ac5be7e"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/trash_B.gltf",
+        "path": "trash_B.gltf",
+        "source_hash": "sha256:6b549af074a24a1d2dd916af53d33d71d251b9e7e004de67294da02d336754e3",
+        "hash": "sha256:6b549af074a24a1d2dd916af53d33d71d251b9e7e004de67294da02d336754e3"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--streetlight",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/streetlight.gltf",
+    "hash": "sha256:4399e9023844319e0f74311779a2c0ebecacec16f5dfd8123b6141a3af903c6a",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.360Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/streetlight.bin",
+        "path": "streetlight.bin",
+        "source_hash": "sha256:2e95833194e4cccbf00a413187cc54ede953c047f88b7cc7b1bef1a1d0aea9a1",
+        "hash": "sha256:2e95833194e4cccbf00a413187cc54ede953c047f88b7cc7b1bef1a1d0aea9a1"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/streetlight.gltf",
+        "path": "streetlight.gltf",
+        "source_hash": "sha256:4399e9023844319e0f74311779a2c0ebecacec16f5dfd8123b6141a3af903c6a",
+        "hash": "sha256:4399e9023844319e0f74311779a2c0ebecacec16f5dfd8123b6141a3af903c6a"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--firehydrant",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/firehydrant.gltf",
+    "hash": "sha256:0a3f9fb95e8b4805602ad26050ee552408553682b41f3e54981a69dfa92a7f3b",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.366Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/firehydrant.bin",
+        "path": "firehydrant.bin",
+        "source_hash": "sha256:02cab93bf6af8c16da083c6ac92dcc5997bed24dabc1e746ee780e623b07b3de",
+        "hash": "sha256:02cab93bf6af8c16da083c6ac92dcc5997bed24dabc1e746ee780e623b07b3de"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/firehydrant.gltf",
+        "path": "firehydrant.gltf",
+        "source_hash": "sha256:0a3f9fb95e8b4805602ad26050ee552408553682b41f3e54981a69dfa92a7f3b",
+        "hash": "sha256:0a3f9fb95e8b4805602ad26050ee552408553682b41f3e54981a69dfa92a7f3b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--box-a",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/box_A.gltf",
+    "hash": "sha256:fe1fa867aa6aa2933bbe3d232c8dcedffc68d484019f71544ce191e2c8ddc16c",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.373Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/box_A.bin",
+        "path": "box_A.bin",
+        "source_hash": "sha256:7d73d90c735ad860f176cc55607e20ca4939c7c9de059b7db127c980f3b5bcec",
+        "hash": "sha256:7d73d90c735ad860f176cc55607e20ca4939c7c9de059b7db127c980f3b5bcec"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/box_A.gltf",
+        "path": "box_A.gltf",
+        "source_hash": "sha256:fe1fa867aa6aa2933bbe3d232c8dcedffc68d484019f71544ce191e2c8ddc16c",
+        "hash": "sha256:fe1fa867aa6aa2933bbe3d232c8dcedffc68d484019f71544ce191e2c8ddc16c"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  },
+  {
+    "id": "kaykit/kaykit-city-builder-bits-1-0/kaykit-city-builder-bits-1-0-main--addons--kaykit-city-builder-bits--assets--box-b",
+    "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/box_B.gltf",
+    "hash": "sha256:6ad0554fedbc3ad3079cac62668455912bbe59be3b796de3356f2cc4e726e690",
+    "license": "mixed",
+    "license_evidence": {
+      "status": "verified",
+      "identifier": "CC0",
+      "commercial_use": true,
+      "evidence": [
+        {
+          "location": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+          "text": "\n\tKayKit : City Builder Bits (1.0)\n\n\tCreated/distributed by Kay Lousberg (www.kaylousberg.com)\n\tCreation date: 25/08/2023 12:00\n\n\t\t\t------------------------------\n\n\tLicense: (Creative Commons Zero, CC0)\n\thttp://creativecommons.org/publicdomain/zero/1.0/\n\n\tThis content is free to use in personal, educational and commercial projects.\n\n\tSupport me by crediting Kay Lousberg, www.kaylousberg.com (this is not mandatory)\n\n\t\t\t------------------------------\n\n\tThis asset pack is here thanks to all the wonderful people who support KayKit on Patreon and those who buy our EXTRA or SOURCE packs on itch.io.\n\n\tAnd a big, special thank you to my Super Supporters:\n\n\t- Brian McBarron\n\t- Silva\n\n\n\n\t\t\t------------------------------\n\n\n\tPatreon:  http://patreon.com/kaylousberg\n\n\tFollow on Twitter for updates:\n\thttp://twitter.com/KayLousberg",
+          "observed_at": "2026-11-15T15:35:22.176Z",
+          "sha256": "b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+        }
+      ]
+    },
+    "provenance": {
+      "creator": "KayKit",
+      "name": "KayKit-City-Builder-Bits-1.0",
+      "source_url": "https://github.com/KayKit-Game-Assets/KayKit-City-Builder-Bits-1.0",
+      "license": "CC0-1.0",
+      "download_bytes": 958876,
+      "archive_sha256": "0d1a41ef653751fcd718a57531c29d600be61eb71700cb7f062f75cdea0d7e0b",
+      "status": "downloaded",
+      "model_files": 102,
+      "files": 208,
+      "local_path": "/Users/marlon/game_assets/KayKit/KayKit-City-Builder-Bits-1.0",
+      "extracted_bytes": 3889530,
+      "formats": [
+        "gltf",
+        "obj"
+      ]
+    },
+    "copied_at": "2026-11-20T02:21:31.379Z",
+    "format": "gltf",
+    "files": [
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/box_B.bin",
+        "path": "box_B.bin",
+        "source_hash": "sha256:07ea7050e806330c8fb7e7d821fc8c7960e4ff2a375f26a4916185c8889faaf8",
+        "hash": "sha256:07ea7050e806330c8fb7e7d821fc8c7960e4ff2a375f26a4916185c8889faaf8"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/box_B.gltf",
+        "path": "box_B.gltf",
+        "source_hash": "sha256:6ad0554fedbc3ad3079cac62668455912bbe59be3b796de3356f2cc4e726e690",
+        "hash": "sha256:6ad0554fedbc3ad3079cac62668455912bbe59be3b796de3356f2cc4e726e690"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/gltf/citybits_texture.png",
+        "path": "citybits_texture.png",
+        "source_hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b",
+        "hash": "sha256:6d2d9a5a13bce32209cd8c04572ab170504d68f34b1519165c9b0c41871e235b"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/KayKit-City-Builder-Bits-1.0-main/addons/kaykit_city_builder_bits/Assets/LICENSE.txt",
+        "path": "LICENSE.txt",
+        "source_hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93",
+        "hash": "sha256:b076d86beec660e1550e00796ca24a8b70d7b2187d79954b2e29722b666dce93"
+      },
+      {
+        "source_path": "KayKit/KayKit-City-Builder-Bits-1.0/SOURCE.json",
+        "path": "SOURCE.json",
+        "source_hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57",
+        "hash": "sha256:b28b2acc2b0c2231cd94635f1a086ff8efc0d3313a1316f6c99a9ab3f899cd57"
+      }
+    ]
+  }
+]

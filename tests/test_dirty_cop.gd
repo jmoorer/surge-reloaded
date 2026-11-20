@@ -76,6 +76,7 @@ func _initialize() -> void:
 
 	# 3. Player in front but behind a tall wall is not seen.
 	var wall := _wall(level, Vector3(0, 1.5, -10), Vector3(4, 3, 0.5))
+	await physics_frame  # Let the wall enter the physics space before the player is exposed.
 	player.global_position = Vector3(0, 0, -6)
 	await _frames(1.0)
 	_check(cop.state == DirtyCop.State.PATROL, "player behind cover is not spotted")
