@@ -36,8 +36,10 @@ _Everything else — research hub, power tiers, overload deaths, story, bosses �
 | 4   | **The Crash**             | Crash debuffs kick in after the timer and scale with pill count.                           | 2 wks   |
 | 5   | **Full run**              | Samples, extraction point, death wipe, save-and-quit. A run start-to-finish works.         | 3 wks   |
 | 6   | **Noir art pass**         | Replace greybox with low-poly kit, rain, fog, wet reflections, streetlights, colour grade. | 3–4 wks |
-| 7   | **Ship it**               | Web build on itch.io, 5 people playtest, fix the top 3 issues.                             | 2 wks   |
+| 7   | ~~**Ship it**~~ _(deferred)_ | Web build on itch.io, 5 people playtest, fix the top 3 issues.                          | 2 wks   |
 
 **Total: ~5–6 months.** Rule: no new feature until the current milestone is done and playable.
 
-**Later (only after Milestone 7):** Research hub · final power set · power tiers · overload risk · second enemy type · first boss · story/case files.
+**Status (2026-11-20):** First pass wrapped — M1–M6 done, desktop playtest passed. M7 (publishing) deferred until there's more game to ship.
+
+**Later (next pass):** Research hub · final power set · power tiers · overload risk · second enemy type · first boss · story/case files.
