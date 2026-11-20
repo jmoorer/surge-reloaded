@@ -25,6 +25,11 @@ const LAYER_HITBOX := 1 << 2
 @export var bullet_visual_speed: float = 220.0
 @export var bullet_visual_scale: float = 2.5
 
+## Set by the owner (power/crash modifiers). 1 = base stats.
+var damage_multiplier := 1.0
+var fire_rate_multiplier := 1.0
+var reload_speed_multiplier := 1.0
+
 ## Set by the owner: camera that defines the aim, and RIDs the shot must ignore.
 var camera: Camera3D
 var exclude: Array[RID] = []
@@ -54,9 +59,9 @@ func pull_trigger() -> void:
 func reload() -> void:
 	if is_reloading or ammo == magazine_size:
 		return
-	_reload_left = reload_time
+	_reload_left = reload_time / reload_speed_multiplier
 	_buffered = 0.0
-	reload_started.emit(reload_time)
+	reload_started.emit(_reload_left)
 
 
 func _physics_process(delta: float) -> void:
@@ -85,7 +90,7 @@ func tick(delta: float) -> void:
 		if ammo <= 0:
 			reload()
 			return
-		_cooldown += 1.0 / fire_rate
+		_cooldown += 1.0 / (fire_rate * fire_rate_multiplier)
 		fire_at(_find_aim_point())
 
 
@@ -107,7 +112,7 @@ func fire_at(aim_point: Vector3) -> Dictionary:
 		hit_point = result.position
 		var hitbox := result.collider as Hitbox
 		if hitbox:
-			var dealt := hitbox.receive_hit(damage, hit_point)
+			var dealt := hitbox.receive_hit(damage * damage_multiplier, hit_point)
 			if dealt > 0.0:
 				var killed := hitbox.health != null and hitbox.health.is_dead
 				hit_confirmed.emit(dealt, hitbox.is_weak_spot, killed)

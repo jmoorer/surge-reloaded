@@ -16,8 +16,12 @@ func _initialize() -> void:
 	current_scene = level
 	await process_frame
 	var player := level.get_node_or_null("Player")
-	if player and setup != "" and player.has_method("debug_setup"):
-		player.debug_setup(setup)
+	if player and setup != "":
+		var dose: Dose = player.dose
+		dose.add_pills(1)
+		dose.take()
+		if setup == "crash":
+			dose.time_left = 0.01
 	var t := 0.0
 	while t < seconds:
 		await process_frame
