@@ -11,6 +11,7 @@ extends CanvasLayer
 
 var _restart_ready := false
 var _flash_tween: Tween
+var _locked: ColorRect  # Part of the health bar the crash has taken away.
 var _pills: Label
 var _dose_bar: ProgressBar
 var _dose_label: Label
@@ -41,7 +42,8 @@ func _ready() -> void:
 	if dose:
 		dose.pills_changed.connect(_on_pills_changed)
 		dose.dose_started.connect(_on_dose_started)
-		dose.dose_ended.connect(func(_n: int) -> void: _dose_bar.hide())
+		dose.crash_started.connect(_on_crash_started)
+		dose.crash_ended.connect(func() -> void: _dose_bar.hide())
 		_on_pills_changed.call_deferred(dose.pills)
 	if health == null:
 		push_warning("HUD has no health assigned")
@@ -52,9 +54,16 @@ func _ready() -> void:
 
 
 func _process(_delta: float) -> void:
+	if health:
+		var frac := 1.0 - health.cap / health.max_health
+		_locked.visible = frac > 0.001
+		_locked.anchor_left = 1.0 - frac
 	if dose and dose.is_dosed:
 		_dose_bar.value = dose.time_left
 		_dose_label.text = "%s  %d" % [Powers.display_name(dose.genome), ceili(dose.time_left)]
+	elif dose and dose.is_crashing:
+		_dose_bar.value = dose.crash_left
+		_dose_label.text = "CRASHING  %d" % ceili(dose.crash_left)
 
 
 ## Shows a big centred message that fades out (genome reveal, extraction, etc.).
@@ -78,6 +87,15 @@ func _on_pills_changed(count: int) -> void:
 	_pills.modulate = Color(0.6, 0.9, 1.0) if count > 0 else Color(1, 1, 1, 0.5)
 
 
+func _on_crash_started(severity: int, duration: float) -> void:
+	_dose_bar.max_value = duration
+	_dose_bar.value = duration
+	(_dose_bar.get_theme_stylebox("fill") as StyleBoxFlat).bg_color = Color(0.55, 0.5, 0.5)
+	_dose_bar.show()
+	var desc := "They know you're weak." if severity <= 1 else "Worse than last time. They're coming."
+	show_banner("CRASH", desc, Color(0.85, 0.3, 0.25), 1.5)
+
+
 func _on_dose_started(power: StringName, _n: int, revealed_now: bool) -> void:
 	var c := Powers.color(power)
 	_dose_bar.max_value = dose.duration
@@ -91,6 +109,15 @@ func _on_dose_started(power: StringName, _n: int, revealed_now: bool) -> void:
 
 
 func _build_dose_ui() -> void:
+	_locked = ColorRect.new()
+	_locked.color = Color(0.35, 0.05, 0.05, 0.85)
+	_locked.mouse_filter = Control.MOUSE_FILTER_IGNORE
+	_locked.anchor_top = 0.0
+	_locked.anchor_bottom = 1.0
+	_locked.anchor_right = 1.0
+	_locked.hide()
+	_health_bar.add_child(_locked)
+
 	_pills = _label(22)
 	_pills.set_anchors_preset(Control.PRESET_BOTTOM_LEFT)
 	_pills.offset_top = -150

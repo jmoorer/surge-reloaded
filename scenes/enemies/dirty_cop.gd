@@ -91,6 +91,7 @@ func _ready() -> void:
 	_label.visible = OS.is_debug_build()
 	_tint_model()
 	PistolClips.install(_anim)
+	add_to_group(&"enemies")
 	_sense_left = _rng.randf() / sense_rate  # Stagger cops so they don't all raycast on one tick.
 	_change_state(State.PATROL)
 
@@ -169,6 +170,13 @@ func _sees(target: Node3D) -> bool:
 		if space.intersect_ray(query).is_empty():
 			return true
 	return false
+
+
+## Someone tipped this cop off: go check the spot (does nothing if already fighting).
+func alert_to(point: Vector3) -> void:
+	if state == State.PATROL or state == State.SEARCH:
+		last_known_position = point
+		_change_state(State.SEARCH)
 
 
 func _on_hit(_damage: float, _hit_position: Vector3, _is_weak_spot: bool) -> void:
