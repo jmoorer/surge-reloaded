@@ -1,6 +1,7 @@
 # Renders a scene and saves a PNG. Not headless (needs a GPU).
 # Run: godot --path . --script res://tools/screenshot.gd -- <scene.tscn> <out.png> [seconds] [setup]
-# setup: optional "dose" to take a pill first, "crash" to skip to the crash.
+# setup: "dose" takes a pill, "crash" skips to the crash, "end" stands near extraction,
+# "pause" opens the pause menu.
 extends SceneTree
 
 
@@ -16,7 +17,11 @@ func _initialize() -> void:
 	current_scene = level
 	await process_frame
 	var player := level.get_node_or_null("Player")
-	if player and setup != "":
+	if player and setup == "end":
+		player.global_position = Vector3(2, 0, -44)
+	elif player and setup == "pause":
+		(level.get_node("Run") as RunDirector).pause()
+	elif player and setup != "":
 		var dose: Dose = player.dose
 		dose.add_pills(1)
 		dose.take()

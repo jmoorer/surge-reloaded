@@ -4,6 +4,7 @@ extends CharacterBody3D
 ## left click fires the pistol, R reloads. Dies when Health hits zero.
 
 signal died
+signal samples_changed(count: int)
 
 @export var walk_speed: float = 4.0
 @export var sprint_speed: float = 7.0
@@ -37,6 +38,8 @@ var _combat_left := 0.0
 var _recoil := Vector2.ZERO
 var is_dead := false
 var mods := PlayerModifiers.new()
+## Samples carried this run. Only banked by extracting; lost on death.
+var samples := 0
 var _sway_t := 0.0
 
 
@@ -162,14 +165,45 @@ func collect(kind: Pickup.Kind, amount: int) -> bool:
 		Pickup.Kind.PILL:
 			dose.add_pills(amount)
 			return true
+		Pickup.Kind.SAMPLE:
+			samples += amount
+			samples_changed.emit(samples)
+			return true
 	return false
+
+
+func to_dict() -> Dictionary:
+	return {
+		"position": SaveGame.vec3(global_position),
+		"camera_yaw": _camera_yaw.rotation.y,
+		"camera_pitch": _camera_pitch.rotation.x,
+		"health": health.current,
+		"ammo": _pistol.ammo,
+		"samples": samples,
+		"dose": dose.to_dict(),
+	}
+
+
+func from_dict(d: Dictionary) -> void:
+	global_position = SaveGame.to_vec3(d.get("position"))
+	velocity = Vector3.ZERO
+	_camera_yaw.rotation.y = float(d.get("camera_yaw", 0.0))
+	_camera_pitch.rotation.x = float(d.get("camera_pitch", deg_to_rad(-15.0)))
+	_model.rotation.y = _aim_yaw()
+	dose.from_dict(d.get("dose", {}))  # First: it sets the health cap.
+	health.current = minf(float(d.get("health", health.max_health)), health.cap)
+	health.changed.emit(health.current, health.max_health)
+	_pistol.ammo = int(d.get("ammo", _pistol.magazine_size))
+	_pistol.ammo_changed.emit(_pistol.ammo, _pistol.magazine_size)
+	samples = int(d.get("samples", 0))
+	samples_changed.emit(samples)
 
 
 func _apply_modifiers(m: PlayerModifiers) -> void:
 	mods = m
 	health.damage_taken_multiplier = m.damage_taken
 	health.regen_per_second = m.regen_per_second
-	health.cap = health.max_health * (1.0 - m.max_health_penalty)
+	health.cap_fraction = 1.0 - m.max_health_penalty
 	_pistol.damage_multiplier = m.weapon_damage
 	_pistol.fire_rate_multiplier = m.fire_rate
 	_pistol.reload_speed_multiplier = m.reload_speed
